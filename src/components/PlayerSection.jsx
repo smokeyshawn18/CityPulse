@@ -32,7 +32,8 @@ import Swi from "../assets/images/swi.png";
 import Stefan from "../assets/images/ortega.jpg";
 import { FaHospital } from "react-icons/fa";
 import Bob from "../assets/images/bob.jpg";
-
+import Mar from "../assets/images/marmoush.webp"
+import Eg from "../assets/images/eg.webp"
 // Sample player data
 const players = [
   {
@@ -115,7 +116,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 1,
-      appearances: 25,
+      appearances: 26,
     },
     injured: false,
   },
@@ -135,8 +136,28 @@ const players = [
     },
     seasonStats: {
       goals: 5,
-      assists: 2,
-      appearances: 24,
+      assists: 3,
+      appearances: 25,
+    },
+    injured: false,
+  },
+  {
+    name: "Omar Marmoush",
+    number: 0,
+    position: "ST",
+    age: 25,
+    country: Eg,
+    image: Mar,
+
+    careerStats: {
+      goals: 42,
+      assists: 19,
+      appearances: 181,
+    },
+    seasonStats: {
+      goals: 19,
+      assists: 11,
+      appearances: 29,
     },
     injured: false,
   },
@@ -153,9 +174,9 @@ const players = [
       appearances: 412,
     },
     seasonStats: {
-      goals: 2,
-      assists: 2,
-      appearances: 22,
+      goals: 3,
+      assists: 4,
+      appearances: 23,
     },
     injured: false,
     injuryDetails: {
@@ -180,7 +201,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 0,
-      appearances: 24,
+      appearances: 25,
     },
     injured: false,
   },
@@ -224,9 +245,9 @@ const players = [
       appearances: 204,
     },
     seasonStats: {
-      goals: 3,
-      assists: 5,
-      appearances: 24,
+      goals: 5,
+      assists: 7,
+      appearances: 25,
     },
     injured: false,
   },
@@ -245,7 +266,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 14,
+      appearances: 15,
     },
     injured: false,
   },
@@ -302,7 +323,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 1,
-      appearances: 26,
+      appearances: 27,
     },
     injured: false,
   },
@@ -325,7 +346,25 @@ const players = [
     },
     injured: false,
   },
-
+  {
+    name: "James McAtee",
+    position: "AM",
+    number: 87,
+    age: 21,
+    country: England,
+    image: James,
+    careerStats: {
+      goals: 14,
+      assists: 7,
+      appearances: 82,
+    },
+    seasonStats: {
+      goals: 4,
+      assists: 1,
+      appearances: 11,
+    },
+    injured: false,
+  },
   {
     name: "Savinho",
     number: 26,
@@ -341,7 +380,7 @@ const players = [
     seasonStats: {
       goals: 1,
       assists: 8,
-      appearances: 29,
+      appearances: 30,
     },
     injured: false,
   },
@@ -359,30 +398,12 @@ const players = [
     },
     seasonStats: {
       goals: 3,
-      assists: 6,
-      appearances: 20,
-    },
-    injured: false,
-  },
-  {
-    name: "James McAtee",
-    position: "AM",
-    number: 87,
-    age: 21,
-    country: England,
-    image: James,
-    careerStats: {
-      goals: 14,
       assists: 7,
-      appearances: 82,
-    },
-    seasonStats: {
-      goals: 1,
-      assists: 1,
-      appearances: 10,
+      appearances: 21,
     },
     injured: false,
   },
+
 
   {
     name: "Kyle Walker",
@@ -468,8 +489,8 @@ const players = [
     },
     seasonStats: {
       goalsConceded: 32,
-      cleanSheets: 4,
-      appearances: 22,
+      cleanSheets: 5,
+      appearances: 23,
     },
     injured: false,
   },

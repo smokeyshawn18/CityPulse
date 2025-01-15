@@ -225,7 +225,7 @@ PlayerCard.propTypes = {
   player: PropTypes.shape({
     name: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    fotmobRating: PropTypes.number.isRequired,
+
     position: PropTypes.string.isRequired,
     country: PropTypes.string.isRequired,
     age: PropTypes.number.isRequired,

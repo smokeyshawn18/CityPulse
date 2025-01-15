@@ -13,14 +13,14 @@ import Belgium from "../assets/images/belgium.png";
 // import Portugal from "../assets/images/portugal.webp";
 import player1Image from "../assets/images/haaland.jpg";
 // import player2Image from "../assets/images/kdb.jpg";
-import Doku from "../assets/images/doku.jpg"
+import Doku from "../assets/images/doku.jpg";
 // import player3Image from "../assets/images/silva.jpg";
 // import Nunes from "../assets/images/nunes.jpg";
 import premierLeagueLogo from "../assets/images/prem.webp";
 import championsLeagueLogo from "../assets/images/Champ.png";
 import Carabao from "../assets/images/carabao.png";
 import otherIcon from "../assets/images/sheld.png";
-import Fa from '../assets/images/fa.jpg'
+import Fa from "../assets/images/fa.jpg";
 // import Josko from "../assets/images/gv.jpg";
 import PhilFoden from "../assets/images/fode.jpg";
 // Placeholder for national team icon
@@ -31,7 +31,7 @@ const playersData = [
   {
     name: "Erling Haaland",
     matches: {
-      premierLeague: 20,
+      premierLeague: 21,
       championsLeague: 6,
       other: 1,
       Fa: 0,
@@ -58,6 +58,37 @@ const playersData = [
     position: "ST",
     image: player1Image,
     nimg: Norway,
+  },
+  {
+    name: "Phil Foden",
+    matches: {
+      premierLeague: 16,
+      championsLeague: 5,
+      other: 0,
+      Fa: 1,
+      Carabao: 2,
+      nationalStats: 2,
+    },
+    goals: {
+      premierLeague: 4,
+      championsLeague: 3,
+      other: 0,
+      Fa: 0,
+      Carabao: 0,
+      nationalStats: 0,
+    },
+    assists: {
+      premierLeague: 1,
+      championsLeague: 1,
+      other: 0,
+      Fa: 1,
+      Carabao: 0,
+      nationalStats: 0,
+    },
+    age: 24,
+    position: "AM",
+    nimg: England,
+    image: PhilFoden,
   },
   {
     name: "Jeremy Doku",
@@ -90,42 +121,11 @@ const playersData = [
     position: "AM",
     image: Doku,
   },
-  {
-    name: "Phil Foden",
-    matches: {
-      premierLeague: 15,
-      championsLeague: 5,
-      other: 0,
-      Fa: 1,
-      Carabao: 2,
-      nationalStats: 2,
-    },
-    goals: {
-      premierLeague: 2,
-      championsLeague: 3,
-      other: 0,
-      Fa: 0,
-      Carabao: 0,
-      nationalStats: 0,
-    },
-    assists: {
-      premierLeague: 1,
-      championsLeague: 1,
-      other: 0,
-      Fa: 1,
-      Carabao: 0,
-      nationalStats: 0,
-    },
-    age: 24,
-    position: "AM",
-    nimg: England,
-    image: PhilFoden,
-  },
 
   // {
   //   name: "Josko Gvardiol",
   //   matches: {
-  //     premierLeague: 19,
+  //     premierLeague: 20,
   //     championsLeague: 6,
   //     other: 1,
   //     Fa: 0,
@@ -157,17 +157,17 @@ const playersData = [
   // {
   //   name: "Bernardo Silva",
   //   matches: {
-  //     premierLeague: 20,
+  //     premierLeague: 21,
   //     championsLeague: 5,
   //     other: 1,
-   // Fa: 0,
+  // Fa: 0,
   //     Carabao: 1,
   //     nationalStats: 5,
   //   },
   //   goals: {
   //     premierLeague: 2,
   //     championsLeague: 0,
-   // Fa: 0,
+  // Fa: 0,
   //     other: 1,
   //     Carabao: 0,
   //     nationalStats: 1,
@@ -175,7 +175,7 @@ const playersData = [
   //   assists: {
   //     premierLeague: 4,
   //     championsLeague: 0,
-   // Fa: 0,
+  // Fa: 0,
   //     other: 0,
   //     Carabao: 0,
   //     nationalStats: 0,
@@ -188,28 +188,28 @@ const playersData = [
   // {
   //   name: "Kevin De Bruyne",
   //   matches: {
-  //     premierLeague: 13,
+  //     premierLeague: 14,
   //     championsLeague: 4,
   //     other: 1,
   //     Carabao: 0,
-   // Fa: 0,
+  // Fa: 0,
   //     nationalStats: 2,
   //   },
   //   goals: {
   //     premierLeague: 2,
   //     championsLeague: 0,
   //     other: 0,
-   // Fa: 0,
+  // Fa: 0,
   //     Carabao: 0,
   //     nationalStats: 2,
   //   },
   //   assists: {
-  //     premierLeague: 3,
+  //     premierLeague: 4,
   //     championsLeague: 0,
   //     other: 0,
   //     Carabao: 0,
-  
-   // Fa: 0,
+
+  // Fa: 0,
   //     nationalStats: 0,
   //   },
   //   nimg: Belgium,
@@ -223,7 +223,7 @@ const playersData = [
   //   matches: {
   //     premierLeague: 12,
   //     championsLeague: 5,
-     // Fa: 1,
+  // Fa: 1,
   //     other: 1,
   //     Carabao: 2,
   //     nationalStats: 0,
@@ -232,14 +232,14 @@ const playersData = [
   //     premierLeague: 0,
   //     championsLeague: 1,
   //     other: 0,
-     // Fa: 0,
+  // Fa: 0,
   //     Carabao: 2,
   //     nationalStats: 0,
   //   },
   //   assists: {
   //     premierLeague: 3,
   //     championsLeague: 3,
-     // Fa: 1,
+  // Fa: 1,
   //     other: 0,
   //     Carabao: 0,
   //     nationalStats: 0,
@@ -253,9 +253,27 @@ const playersData = [
 
 // Function to calculate CityPulse Rating
 const calculateCityPulseRating = (player) => {
-  const totalGoals = player.goals.premierLeague + player.goals.championsLeague + player.goals.Carabao + player.goals.Fa + player.goals.other + player.goals.nationalStats;
-  const totalAssists = player.assists.premierLeague + player.assists.championsLeague + player.assists.Carabao + player.assists.Fa + player.assists.other + player.assists.nationalStats;
-  const totalMatches = player.matches.premierLeague + player.matches.championsLeague + player.matches.Carabao + player.matches.Fa + player.matches.other + player.matches.nationalStats;
+  const totalGoals =
+    player.goals.premierLeague +
+    player.goals.championsLeague +
+    player.goals.Carabao +
+    player.goals.Fa +
+    player.goals.other +
+    player.goals.nationalStats;
+  const totalAssists =
+    player.assists.premierLeague +
+    player.assists.championsLeague +
+    player.assists.Carabao +
+    player.assists.Fa +
+    player.assists.other +
+    player.assists.nationalStats;
+  const totalMatches =
+    player.matches.premierLeague +
+    player.matches.championsLeague +
+    player.matches.Carabao +
+    player.matches.Fa +
+    player.matches.other +
+    player.matches.nationalStats;
 
   // Calculate raw rating
   let rawRating;
@@ -286,7 +304,8 @@ const KeyPerformers = () => {
           const cityPulseRating = calculateCityPulseRating(player); // Calculate CityPulse Rating
 
           // Determine icon color based on rating
-          const iconColor = cityPulseRating > 8 ? 'text-green-500' : 'text-yellow-500';
+          const iconColor =
+            cityPulseRating > 8 ? "text-green-500" : "text-yellow-500";
 
           return (
             <div
@@ -308,15 +327,15 @@ const KeyPerformers = () => {
                     alt="national flag"
                     className="w-10 h-8 mx-auto mb-5 mt-3"
                   />
-                    
-              {/* Power Icon */}
-              <div className={`flex items-center mb-3 ${iconColor}`}>
-                <FaBolt className="text-2xl mr-2 text-center" />
-                <p className="text-lg font-bold text-[#182d33]">
-                CityPulse Rating: {cityPulseRating.toFixed(1)}
-              </p>
-                <span>{cityPulseRating > 8 ? '' : ''}</span>
-              </div>
+
+                  {/* Power Icon */}
+                  <div className={`flex items-center mb-3 ${iconColor}`}>
+                    <FaBolt className="text-2xl mr-2 text-center" />
+                    <p className="text-lg font-bold text-[#182d33]">
+                      CityPulse Rating: {cityPulseRating.toFixed(1)}
+                    </p>
+                    <span>{cityPulseRating > 8 ? "" : ""}</span>
+                  </div>
                   <p className="text-lg font-semibold text-[#182d33]">
                     {player.position}
                   </p>
@@ -330,7 +349,12 @@ const KeyPerformers = () => {
                 <div className="flex flex-col items-center bg-gray-50 p-4 rounded-xl">
                   <FaCalendarAlt className="text-black text-2xl mb-2" />
                   <p className="text-xl font-semibold text-black">
-                    {player.matches.premierLeague + player.matches.championsLeague + player.matches.Carabao + player.matches.Fa + player.matches.other + player.matches.nationalStats}
+                    {player.matches.premierLeague +
+                      player.matches.championsLeague +
+                      player.matches.Carabao +
+                      player.matches.Fa +
+                      player.matches.other +
+                      player.matches.nationalStats}
                   </p>
                   <span className="text-sm text-gray-800 font-semibold">
                     Matches
@@ -340,7 +364,12 @@ const KeyPerformers = () => {
                 <div className="flex flex-col items-center bg-gray-50 p-4 rounded-xl">
                   <GoGoal className="text-black text-2xl mb-2" />
                   <p className="text-xl font-semibold text-black">
-                    {player.goals.premierLeague + player.goals.championsLeague + player.goals.Carabao + player.goals.Fa + player.goals.other + player.goals.nationalStats}
+                    {player.goals.premierLeague +
+                      player.goals.championsLeague +
+                      player.goals.Carabao +
+                      player.goals.Fa +
+                      player.goals.other +
+                      player.goals.nationalStats}
                   </p>
                   <span className="text-sm text-gray-800 font-semibold">
                     Goals
@@ -350,7 +379,12 @@ const KeyPerformers = () => {
                 <div className="flex flex-col items-center bg-gray-50 p-4 rounded-xl">
                   <FaHandsHelping className="text-black text-2xl mb-2" />
                   <p className="text-xl font-semibold text-black">
-                    {player.assists.premierLeague + player.assists.championsLeague + player.assists.Carabao + player.assists.Fa + player.assists.other + player.assists.nationalStats}
+                    {player.assists.premierLeague +
+                      player.assists.championsLeague +
+                      player.assists.Carabao +
+                      player.assists.Fa +
+                      player.assists.other +
+                      player.assists.nationalStats}
                   </p>
                   <span className="text-sm text-gray-800 font-semibold">
                     Assists
@@ -501,7 +535,7 @@ const KeyPerformers = () => {
                         className="w-8 h-8 mr-2 rounded-lg"
                       />
                       <span className="text-[#3D195B] font-semibold">
-                       Fa Cup
+                        Fa Cup
                       </span>
                     </div>
                     <div className="flex justify-between mb-2">
@@ -575,7 +609,7 @@ const KeyPerformers = () => {
                         className="w-8 h-8 mr-2"
                       />
                       <span className="text-[#3D195B] font-semibold">
-                      Community Shield
+                        Community Shield
                       </span>
                     </div>
                     <div className="flex justify-between mb-2">
@@ -605,7 +639,6 @@ const KeyPerformers = () => {
                   </div>
                 </div>
               )}
-           
             </div>
           );
         })}

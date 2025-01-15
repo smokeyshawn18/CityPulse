@@ -9,7 +9,7 @@ import JackGrealish from "../assets/images/jack.jpg";
 import IlkayGundogan from "../assets/images/gundo.webp";
 import JeremyDoku from "../assets/images/doku.jpg";
 import JoskoGvardiol from "../assets/images/gv.jpg";
-import KyleWalker from "../assets/images/walker.jpg";
+import KyleWalker from "../assets/images/claudio.webp";
 import MateoKovacic from "../assets/images/kovacic.webp";
 import Rico from "../assets/images/ricol.jpg";
 import Ruben from "../assets/images/ruben.jpg";
@@ -32,8 +32,9 @@ import Swi from "../assets/images/swi.png";
 import Stefan from "../assets/images/ortega.jpg";
 import { FaHospital } from "react-icons/fa";
 import Bob from "../assets/images/bob.jpg";
-import Mar from "../assets/images/marmoush.webp"
-import Eg from "../assets/images/eg.webp"
+import Mar from "../assets/images/marmoush.webp";
+import Eg from "../assets/images/eg.webp";
+import Arg from "../assets/images/arg.webp";
 // Sample player data
 const players = [
   {
@@ -51,7 +52,7 @@ const players = [
     seasonStats: {
       goals: 28,
       assists: 2,
-      appearances: 33,
+      appearances: 34,
     },
   },
 
@@ -69,8 +70,8 @@ const players = [
     },
     seasonStats: {
       goals: 4,
-      assists: 3,
-      appearances: 20,
+      assists: 4,
+      appearances: 21,
     },
     injured: false,
     injuryDetails: {
@@ -96,7 +97,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 4,
-      appearances: 32,
+      appearances: 33,
     },
     injured: false,
   },
@@ -116,7 +117,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 1,
-      appearances: 26,
+      appearances: 27,
     },
     injured: false,
   },
@@ -135,9 +136,9 @@ const players = [
       appearances: 311,
     },
     seasonStats: {
-      goals: 5,
+      goals: 7,
       assists: 3,
-      appearances: 25,
+      appearances: 26,
     },
     injured: false,
   },
@@ -155,9 +156,9 @@ const players = [
       appearances: 181,
     },
     seasonStats: {
-      goals: 19,
-      assists: 11,
-      appearances: 29,
+      goals: 20,
+      assists: 13,
+      appearances: 30,
     },
     injured: false,
   },
@@ -201,7 +202,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 0,
-      appearances: 25,
+      appearances: 26,
     },
     injured: false,
   },
@@ -266,7 +267,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 15,
+      appearances: 16,
     },
     injured: false,
   },
@@ -304,7 +305,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 0,
-      appearances: 34,
+      appearances: 35,
     },
     injured: false,
   },
@@ -323,7 +324,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 1,
-      appearances: 27,
+      appearances: 28,
     },
     injured: false,
   },
@@ -361,7 +362,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 1,
-      appearances: 11,
+      appearances: 12,
     },
     injured: false,
   },
@@ -380,7 +381,7 @@ const players = [
     seasonStats: {
       goals: 1,
       assists: 8,
-      appearances: 30,
+      appearances: 31,
     },
     injured: false,
   },
@@ -399,28 +400,27 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 7,
-      appearances: 21,
+      appearances: 22,
     },
     injured: false,
   },
 
-
   {
-    name: "Kyle Walker",
-    position: "RB",
+    name: "C. Echeverri",
+    position: "AM",
     number: 2,
-    country: England,
-    age: 34,
+    country: Arg,
+    age: 19,
     image: KyleWalker,
     careerStats: {
-      goals: 13,
-      assists: 61,
-      appearances: 702,
+      goals: 4,
+      assists: 8,
+      appearances: 48,
     },
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 21,
+      appearances: 0,
     },
     injured: false,
     injuryDetails: {
@@ -507,9 +507,9 @@ const players = [
       appearances: 318,
     },
     seasonStats: {
-      goalsConceded: 10,
+      goalsConceded: 12,
       cleanSheets: 4,
-      appearances: 11,
+      appearances: 12,
     },
     injured: false,
   },

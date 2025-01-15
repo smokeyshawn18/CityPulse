@@ -8,8 +8,8 @@ import Guardiola from "../assets/images/pepp.jpg";
 
 export default function CoachProfile() {
   // Define individual stats
-  const wins = 364      ; // Example value
-  const draws = 63; // Example value
+  const wins = 364; // Example value
+  const draws = 64; // Example value
   const losses = 75; // Example value
   const totalTrophies = 18; // Example value
 

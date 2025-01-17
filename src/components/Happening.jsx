@@ -1,10 +1,16 @@
 // import Opponent from "../assets/images/gb.jpg";
 import Dor from "../assets/images/rodriedit.png";
 import Pep from "../assets/images/pepsign.jpg";
+import Mar from "../assets/images/marmoushn.webp";
 
 function Happening() {
   // Define your items in reverse order (newest first)
   const items = [
+    {
+      title: "Here we go... Welcome Marmoush",
+      image: Mar,
+      addedTime: new Date("2025-01-16T23:24:00"),
+    },
     {
       title: "Pep Signs Till 2027, The Journey Continues...",
       image: Pep,

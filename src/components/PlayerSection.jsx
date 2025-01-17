@@ -151,13 +151,13 @@ const players = [
     image: Mar,
 
     careerStats: {
-      goals: 42,
+      goals: 41,
       assists: 19,
       appearances: 181,
     },
     seasonStats: {
-      goals: 20,
-      assists: 13,
+      goals: 21,
+      assists: 14,
       appearances: 30,
     },
     injured: false,

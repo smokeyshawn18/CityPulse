@@ -10,11 +10,11 @@ import { GoGoal } from "react-icons/go";
 // import Croatia from "../assets/images/cro.png";
 import England from "../assets/images/eng.png";
 import Norway from "../assets/images/norway.webp";
-import Belgium from "../assets/images/belgium.png";
+// import Belgium from "../assets/images/belgium.png";
 // import Portugal from "../assets/images/portugal.webp";
 import player1Image from "../assets/images/haaland.jpg";
 // import player2Image from "../assets/images/kdb.jpg";
-import Doku from "../assets/images/doku.jpg";
+// import Doku from "../assets/images/doku.jpg";
 // import player3Image from "../assets/images/silva.jpg";
 // import Nunes from "../assets/images/nunes.jpg";
 import premierLeagueLogo from "../assets/images/prem.webp";
@@ -24,9 +24,11 @@ import otherIcon from "../assets/images/sheld.png";
 import Fa from "../assets/images/fa.jpg";
 // import Josko from "../assets/images/gv.jpg";
 import PhilFoden from "../assets/images/fode.jpg";
+import MarmoushImage from "../assets/images/marmoush.webp";
+import Egypt from "../assets/images/eg.webp";
 // Placeholder for national team icon
 import { useState } from "react";
-import { useEffect } from "react";
+import { CircleArrowLeft } from "lucide-react";
 
 const playersData = [
   {
@@ -37,12 +39,14 @@ const playersData = [
       other: 1,
       Fa: 0,
       Carabao: 0,
+      frank: 0,
       nationalStats: 6,
     },
     goals: {
       premierLeague: 16,
       championsLeague: 5,
       Fa: 0,
+      frank: 0,
       other: 0,
       Carabao: 0,
       nationalStats: 7,
@@ -51,6 +55,7 @@ const playersData = [
       premierLeague: 1,
       championsLeague: 0,
       other: 0,
+      frank: 0,
       Fa: 0,
       Carabao: 0,
       nationalStats: 1,
@@ -61,6 +66,40 @@ const playersData = [
     nimg: Norway,
   },
   {
+    name: "Omar Marmoush",
+    matches: {
+      premierLeague: 0, // Assuming he has played 2 matches in the Premier League for City
+      championsLeague: 0, // Assuming he played 1 Champions League match for City
+      other: 0,
+      Fa: 0,
+      Carabao: 0, // Assuming 1 Carabao Cup match
+      nationalStats: 4, // Stats from his national team matches
+      frank: 26, // Matches for his previous team in the Bundesliga
+    },
+    goals: {
+      premierLeague: 0,
+      championsLeague: 0,
+      Fa: 0,
+      other: 0,
+      Carabao: 0,
+      nationalStats: 1, // Goals scored for his national team
+      frank: 20, // Goals scored for his previous team in the Bundesliga
+    },
+    assists: {
+      premierLeague: 0,
+      championsLeague: 0, // 1 assist in Champions League
+      other: 0,
+      Carabao: 0,
+      Fa: 0,
+      nationalStats: 0, // 1 assist for his national team
+      frank: 14, // Assists for his previous team in the Bundesliga
+    },
+    age: 25, // Assuming his age
+    position: "LW", // Assuming he plays as a Left Winger
+    image: MarmoushImage, // Assuming the image file is added
+    nimg: Egypt, // Flag for Egypt (since he plays for Egypt's national team)
+  },
+  {
     name: "Phil Foden",
     matches: {
       premierLeague: 16,
@@ -68,6 +107,7 @@ const playersData = [
       other: 0,
       Fa: 1,
       Carabao: 2,
+      frank: 0,
       nationalStats: 2,
     },
     goals: {
@@ -76,12 +116,14 @@ const playersData = [
       other: 0,
       Fa: 0,
       Carabao: 0,
+      frank: 0,
       nationalStats: 0,
     },
     assists: {
       premierLeague: 1,
       championsLeague: 1,
       other: 0,
+      frank: 0,
       Fa: 1,
       Carabao: 0,
       nationalStats: 0,
@@ -91,37 +133,40 @@ const playersData = [
     nimg: England,
     image: PhilFoden,
   },
-  {
-    name: "Jeremy Doku",
-    matches: {
-      premierLeague: 14,
-      championsLeague: 4,
-      other: 1,
-      Carabao: 1,
-      Fa: 1,
-      nationalStats: 4,
-    },
-    goals: {
-      premierLeague: 2,
-      championsLeague: 0,
-      other: 0,
-      Fa: 2,
-      Carabao: 1,
-      nationalStats: 0,
-    },
-    assists: {
-      premierLeague: 3,
-      championsLeague: 1,
-      other: 0,
-      Carabao: 0,
-      Fa: 2,
-      nationalStats: 1,
-    },
-    nimg: Belgium,
-    age: 22,
-    position: "AM",
-    image: Doku,
-  },
+  // {
+  //   name: "Jeremy Doku",
+  //   matches: {
+  //     premierLeague: 14,
+  //     championsLeague: 4,
+  //     other: 1,
+  //     Carabao: 1,
+  //     frank: 0,
+  //     Fa: 1,
+  //     nationalStats: 4,
+  //   },
+  //   goals: {
+  //     premierLeague: 2,
+  //     championsLeague: 0,
+  //     other: 0,
+  //     Fa: 2,
+  //     Carabao: 1,
+  //     frank: 0,
+  //     nationalStats: 0,
+  //   },
+  //   assists: {
+  //     premierLeague: 3,
+  //     championsLeague: 1,
+  //     other: 0,
+  //     Carabao: 0,
+  //     frank: 0,
+  //     Fa: 2,
+  //     nationalStats: 1,
+  //   },
+  //   nimg: Belgium,
+  //   age: 22,
+  //   position: "AM",
+  //   image: Doku,
+  // },
 
   // {
   //   name: "Josko Gvardiol",
@@ -129,6 +174,7 @@ const playersData = [
   //     premierLeague: 20,
   //     championsLeague: 6,
   //     other: 1,
+  // frank: 0,
   //     Fa: 0,
   //     Carabao: 2,
   //     nationalStats: 6,
@@ -137,6 +183,7 @@ const playersData = [
   //     premierLeague: 4,
   //     championsLeague: 0,
   //     other: 0,
+  // frank: 0,
   //     Carabao: 0,
   //     Fa: 0,
   //     nationalStats: 1,
@@ -145,6 +192,7 @@ const playersData = [
   //     premierLeague: 0,
   //     championsLeague: 0,
   //     other: 0,
+  // frank: 0,
   //     Carabao: 0,
   //     Fa: 0,
   //     nationalStats: 0,
@@ -160,6 +208,7 @@ const playersData = [
   //   matches: {
   //     premierLeague: 21,
   //     championsLeague: 5,
+  // frank: 0,
   //     other: 1,
   // Fa: 0,
   //     Carabao: 1,
@@ -169,6 +218,7 @@ const playersData = [
   //     premierLeague: 2,
   //     championsLeague: 0,
   // Fa: 0,
+  // frank: 0,
   //     other: 1,
   //     Carabao: 0,
   //     nationalStats: 1,
@@ -177,6 +227,7 @@ const playersData = [
   //     premierLeague: 4,
   //     championsLeague: 0,
   // Fa: 0,
+  // frank: 0,
   //     other: 0,
   //     Carabao: 0,
   //     nationalStats: 0,
@@ -191,6 +242,7 @@ const playersData = [
   //   matches: {
   //     premierLeague: 14,
   //     championsLeague: 4,
+  // frank: 0,
   //     other: 1,
   //     Carabao: 0,
   // Fa: 0,
@@ -199,6 +251,7 @@ const playersData = [
   //   goals: {
   //     premierLeague: 2,
   //     championsLeague: 0,
+  // frank: 0,
   //     other: 0,
   // Fa: 0,
   //     Carabao: 0,
@@ -207,6 +260,7 @@ const playersData = [
   //   assists: {
   //     premierLeague: 4,
   //     championsLeague: 0,
+  // frank: 0,
   //     other: 0,
   //     Carabao: 0,
 
@@ -223,6 +277,7 @@ const playersData = [
   //   name: "Matheus Nunes",
   //   matches: {
   //     premierLeague: 12,
+  // frank: 0,
   //     championsLeague: 5,
   // Fa: 1,
   //     other: 1,
@@ -232,6 +287,7 @@ const playersData = [
   //   goals: {
   //     premierLeague: 0,
   //     championsLeague: 1,
+  // frank: 0,
   //     other: 0,
   // Fa: 0,
   //     Carabao: 2,
@@ -241,6 +297,7 @@ const playersData = [
   //     premierLeague: 3,
   //     championsLeague: 3,
   // Fa: 1,
+  // frank: 0,
   //     other: 0,
   //     Carabao: 0,
   //     nationalStats: 0,
@@ -259,12 +316,14 @@ const calculateCityPulseRating = (player) => {
     player.goals.championsLeague +
     player.goals.Carabao +
     player.goals.Fa +
+    player.goals.frank +
     player.goals.other +
     player.goals.nationalStats;
   const totalAssists =
     player.assists.premierLeague +
     player.assists.championsLeague +
     player.assists.Carabao +
+    player.assists.frank +
     player.assists.Fa +
     player.assists.other +
     player.assists.nationalStats;
@@ -273,13 +332,14 @@ const calculateCityPulseRating = (player) => {
     player.matches.championsLeague +
     player.matches.Carabao +
     player.matches.Fa +
+    player.matches.frank +
     player.matches.other +
     player.matches.nationalStats;
 
   // Calculate raw rating
   let rawRating;
   if (totalMatches > 0) {
-    rawRating = ((totalGoals + totalAssists) / totalMatches) * 4 + 6; // Scale to 10
+    rawRating = ((totalGoals + totalAssists) / totalMatches) * 3 + 6; // Scale to 10
   } else {
     rawRating = 6; // Minimum rating
   }
@@ -294,6 +354,8 @@ const KeyPerformers = () => {
   const toggleExpand = (index) => {
     setExpandedPlayerIndex(expandedPlayerIndex === index ? null : index);
   };
+
+  const type = "Previous Team - This Season";
 
   return (
     <div className="mb-10 mt-5">
@@ -355,6 +417,7 @@ const KeyPerformers = () => {
                       player.matches.Carabao +
                       player.matches.Fa +
                       player.matches.other +
+                      player.matches.frank +
                       player.matches.nationalStats}
                   </p>
                   <span className="text-sm text-gray-800 font-semibold">
@@ -369,6 +432,7 @@ const KeyPerformers = () => {
                       player.goals.championsLeague +
                       player.goals.Carabao +
                       player.goals.Fa +
+                      player.goals.frank +
                       player.goals.other +
                       player.goals.nationalStats}
                   </p>
@@ -385,6 +449,7 @@ const KeyPerformers = () => {
                       player.assists.Carabao +
                       player.assists.Fa +
                       player.assists.other +
+                      player.assists.frank +
                       player.assists.nationalStats}
                   </p>
                   <span className="text-sm text-gray-800 font-semibold">
@@ -635,6 +700,40 @@ const KeyPerformers = () => {
                       </span>
                       <span className="text-gray-900 font-semibold">
                         {player.assists.other}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-xl mb-4">
+                    <div className="flex items-center mb-2">
+                      <CircleArrowLeft className="mr-3" />
+                      <span className="text-[#3D195B] font-semibold">
+                        {type} {/* Displaying the dynamic match type */}
+                      </span>
+                    </div>
+                    <div className="flex justify-between mb-2">
+                      <span className="text-gray-600 font-semibold">
+                        Matches:
+                      </span>
+                      <span className="text-gray-900 font-semibold">
+                        {player.matches.frank}{" "}
+                        {/* Using dynamic key for matches */}
+                      </span>
+                    </div>
+                    <div className="flex justify-between mb-2">
+                      <span className="text-gray-600 font-semibold">
+                        Goals:
+                      </span>
+                      <span className="text-gray-900 font-semibold">
+                        {player.goals.frank} {/* Using dynamic key for goals */}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-600 font-semibold">
+                        Assists:
+                      </span>
+                      <span className="text-gray-900 font-semibold">
+                        {player.assists.frank}
+                        {/* Using dynamic key for assists */}
                       </span>
                     </div>
                   </div>

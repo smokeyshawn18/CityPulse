@@ -5,6 +5,7 @@ import {
   FaAngleUp,
   FaBolt,
 } from "react-icons/fa";
+
 import { GoGoal } from "react-icons/go";
 // import Croatia from "../assets/images/cro.png";
 import England from "../assets/images/eng.png";

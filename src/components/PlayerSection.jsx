@@ -50,9 +50,9 @@ const players = [
       appearances: 312,
     },
     seasonStats: {
-      goals: 28,
+      goals: 29,
       assists: 2,
-      appearances: 34,
+      appearances: 35,
     },
   },
 
@@ -70,8 +70,8 @@ const players = [
     },
     seasonStats: {
       goals: 4,
-      assists: 4,
-      appearances: 21,
+      assists: 6,
+      appearances: 22,
     },
     injured: false,
     injuryDetails: {
@@ -117,7 +117,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 1,
-      appearances: 27,
+      appearances: 28,
     },
     injured: false,
   },
@@ -136,9 +136,9 @@ const players = [
       appearances: 311,
     },
     seasonStats: {
-      goals: 7,
-      assists: 3,
-      appearances: 26,
+      goals: 9,
+      assists: 4,
+      appearances: 27,
     },
     injured: false,
   },
@@ -177,7 +177,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 4,
-      appearances: 23,
+      appearances: 24,
     },
     injured: false,
     injuryDetails: {
@@ -200,9 +200,9 @@ const players = [
       appearances: 640,
     },
     seasonStats: {
-      goals: 3,
-      assists: 0,
-      appearances: 26,
+      goals: 4,
+      assists: 1,
+      appearances: 27,
     },
     injured: false,
   },
@@ -246,9 +246,9 @@ const players = [
       appearances: 204,
     },
     seasonStats: {
-      goals: 5,
-      assists: 7,
-      appearances: 25,
+      goals: 6,
+      assists: 8,
+      appearances: 26,
     },
     injured: false,
   },
@@ -269,7 +269,13 @@ const players = [
       assists: 0,
       appearances: 16,
     },
-    injured: false,
+    injured: true,
+    injuryDetails: {
+      tm: "Jan 19, 2025",
+      type: "Muscle Injury",
+      recoveryTime: "Early February 2025",
+    },
+    injuryIcon: FaHospital,
   },
   {
     name: "John Stones",
@@ -288,7 +294,13 @@ const players = [
       assists: 0,
       appearances: 14,
     },
-    injured: false,
+    injured: true,
+    injuryDetails: {
+      tm: "Dec 21, 2024",
+      type: "Foot Injury",
+      recoveryTime: "Doubtful!",
+    },
+    injuryIcon: FaHospital,
   },
   {
     name: "Josko Gvardiol",
@@ -305,7 +317,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 0,
-      appearances: 35,
+      appearances: 36,
     },
     injured: false,
   },
@@ -324,7 +336,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 1,
-      appearances: 28,
+      appearances: 29,
     },
     injured: false,
   },
@@ -343,7 +355,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 23,
+      appearances: 24,
     },
     injured: false,
   },
@@ -360,9 +372,9 @@ const players = [
       appearances: 82,
     },
     seasonStats: {
-      goals: 4,
+      goals: 5,
       assists: 1,
-      appearances: 12,
+      appearances: 13,
     },
     injured: false,
   },
@@ -400,7 +412,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 7,
-      appearances: 22,
+      appearances: 23,
     },
     injured: false,
   },
@@ -422,11 +434,11 @@ const players = [
       assists: 0,
       appearances: 0,
     },
-    injured: false,
+    injured: true,
     injuryDetails: {
-      tm: "Oct 20, 2024",
-      type: "Thigh Injury",
-      recoveryTime: "Mid November 2024",
+      tm: "Jan 01, 2025",
+      type: "Will Join the Team at March",
+      recoveryTime: "Early March 2025",
     },
     injuryIcon: FaHospital,
   },
@@ -446,7 +458,7 @@ const players = [
     seasonStats: {
       goals: 1,
       assists: 4,
-      appearances: 31,
+      appearances: 32,
     },
     injured: false,
   },
@@ -489,8 +501,8 @@ const players = [
     },
     seasonStats: {
       goalsConceded: 32,
-      cleanSheets: 5,
-      appearances: 23,
+      cleanSheets: 6,
+      appearances: 24,
     },
     injured: false,
   },

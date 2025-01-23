@@ -36,6 +36,8 @@ import Juventus from "../assets/images/juv.jpg";
 import Vla from "../assets/images/vla.jpg";
 import Amad from "../assets/images/amad.webp";
 import Rogers from "../assets/images/rogers.jpg";
+import PSG from "../assets/images/psg.png";
+import Neves from "../assets/images/neves.webp";
 
 const teamColors = {
   "Man City": "#6caddf",
@@ -68,6 +70,7 @@ const teamLogos = {
   Fulham: Fulham,
   Brighton: Brighton,
   Juventus: Juventus,
+  PSG: PSG,
 };
 
 const calculateScore = (scorers) => {
@@ -373,6 +376,23 @@ const matches = [
     competitionLogo: PremierLeagueLogo,
     manOfTheMatch: Haaland,
     motm: "Erling Haaland",
+  },
+  {
+    id: 19,
+    homeTeam: "Man City",
+    awayTeam: "PSG",
+    scorers: {
+      home: ["Grealish 50'", "Haaland 53'"],
+      away: ["Dembele 56'", "Barcola 60'", "Neves 78'", "G. Ramos 90+3'"],
+    },
+    timestamp: "2025-01-23T01:45:00",
+    time: "FT",
+    competition: "Champions League",
+    venue: "Parc des Princes",
+    competitionLogo: ChampionsLeague,
+
+    manOfTheMatch: Neves,
+    motm: "Joao Neves",
   },
 ];
 

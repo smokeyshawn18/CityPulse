@@ -5,32 +5,14 @@ import ManCityLogo from "../assets/images/logo.svg";
 import Tottenham from "../assets/images/tottenham.webp";
 import Liverpool from "../assets/images/lfc.webp";
 import ManUtd from "../assets/images/united.png";
-import AstonVilla from "../assets/images/aston-villa.png";
+// import AstonVilla from "../assets/images/aston-villa.png";
 // import Carabao from "../assets/images/carabao.png";
-import WestHamLogo from "../assets/images/westham.png";
+// import WestHamLogo from "../assets/images/westham.png";
 import New from "../assets/images/newcastle.png";
 import ChelseaLogo from "../assets/images/Chelsea.webp";
 import ArsenalLogo from "../assets/images/arsenal.png";
 // Full list of matches including additional teams
 const matches = [
-  {
-    date: "2024-12-21",
-    opponent: "Aston Villa",
-    time: "18:15",
-    venue: "Villa Park",
-    competition: "Premier League",
-    opponentLogo: AstonVilla,
-    competitionLogo: PremierLeagueLogo,
-  },
-  {
-    date: "2025-01-04",
-    opponent: "West Ham",
-    time: "20:45",
-    venue: "Etihad Stadium",
-    competition: "Premier League",
-    opponentLogo: WestHamLogo,
-    competitionLogo: PremierLeagueLogo,
-  },
   {
     date: "2025-01-23",
     opponent: "PSG",
@@ -67,6 +49,7 @@ const matches = [
     opponentLogo: New,
     competitionLogo: PremierLeagueLogo,
   },
+
   {
     date: "2025-02-23",
     opponent: "Liverpool",
@@ -76,6 +59,7 @@ const matches = [
     opponentLogo: Liverpool,
     competitionLogo: PremierLeagueLogo,
   },
+
   {
     date: "2025-02-26",
     opponent: "Tottenham",

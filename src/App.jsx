@@ -9,6 +9,7 @@ import Footer from "./components/Footer.jsx";
 import History from "./components/History.jsx";
 import News from "./components/News.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import InstallPopup from "./components/InstallApp.jsx";
 
 const App = () => {
   return (
@@ -26,7 +27,9 @@ const App = () => {
       </Routes>
 
       <Footer />
+      <InstallPopup/>s
     </Router>
+  
   );
 };
 

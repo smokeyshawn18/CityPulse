@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import History from "./components/History";
 import News from "./components/News";
 import ScrollToTop from "./components/ScrollToTop";
+import InstallPopup from "./components/InstallApp";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         {/* Add additional routes as needed */}
       </Routes>
       <Footer />
+      <InstallPopup/>
     </Router>
   );
 };

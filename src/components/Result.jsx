@@ -394,6 +394,22 @@ const matches = [
     manOfTheMatch: Neves,
     motm: "Joao Neves",
   },
+  {
+    id: 20,
+    homeTeam: "Man City",
+    awayTeam: "Chelsea",
+    scorers: {
+      home: ["Gvardiol 42'", "Haaland 60'", "Foden 87'"],
+      away: ["Madueke 3'"],
+    },
+    timestamp: "2025-01-25T23:15:00",
+    time: "FT",
+    competition: "Premier League",
+    venue: "Etihad Stadium",
+    competitionLogo: PremierLeagueLogo,
+    manOfTheMatch: Haaland,
+    motm: "Erling Haaland",
+  },
 ];
 
 const formatDateTime = (dateTimeString) => {

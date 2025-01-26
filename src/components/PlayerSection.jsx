@@ -50,9 +50,9 @@ const players = [
       appearances: 312,
     },
     seasonStats: {
-      goals: 30,
-      assists: 2,
-      appearances: 36,
+      goals: 31,
+      assists: 3,
+      appearances: 37,
     },
   },
 
@@ -71,7 +71,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 6,
-      appearances: 23,
+      appearances: 24,
     },
     injured: false,
     injuryDetails: {
@@ -97,7 +97,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 4,
-      appearances: 34,
+      appearances: 35,
     },
     injured: false,
   },
@@ -117,7 +117,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 1,
-      appearances: 29,
+      appearances: 30,
     },
     injured: false,
   },
@@ -136,9 +136,9 @@ const players = [
       appearances: 311,
     },
     seasonStats: {
-      goals: 9,
+      goals: 10,
       assists: 4,
-      appearances: 28,
+      appearances: 29,
     },
     injured: false,
   },
@@ -158,7 +158,7 @@ const players = [
     seasonStats: {
       goals: 21,
       assists: 14,
-      appearances: 30,
+      appearances: 31,
     },
     injured: false,
   },
@@ -202,7 +202,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 1,
-      appearances: 28,
+      appearances: 29,
     },
     injured: false,
   },
@@ -292,7 +292,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 0,
-      appearances: 15,
+      appearances: 16,
     },
     injured: false,
     injuryDetails: {
@@ -315,9 +315,9 @@ const players = [
       appearances: 214,
     },
     seasonStats: {
-      goals: 5,
+      goals: 6,
       assists: 0,
-      appearances: 37,
+      appearances: 38,
     },
     injured: false,
   },
@@ -336,7 +336,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 1,
-      appearances: 30,
+      appearances: 31,
     },
     injured: false,
   },
@@ -357,7 +357,13 @@ const players = [
       assists: 0,
       appearances: 25,
     },
-    injured: false,
+    injured: true,
+    injuryDetails: {
+      tm: "Jan 24, 2025",
+      type: "Groin Injury",
+      recoveryTime: "Mid February!",
+    },
+    injuryIcon: FaHospital,
   },
   {
     name: "James McAtee",
@@ -411,8 +417,8 @@ const players = [
     },
     seasonStats: {
       goals: 3,
-      assists: 7,
-      appearances: 24,
+      assists: 8,
+      appearances: 25,
     },
     injured: false,
   },
@@ -500,9 +506,9 @@ const players = [
       appearances: 479,
     },
     seasonStats: {
-      goalsConceded: 36,
+      goalsConceded: 37,
       cleanSheets: 6,
-      appearances: 25,
+      appearances: 26,
     },
     injured: false,
   },

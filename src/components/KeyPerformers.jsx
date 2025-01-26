@@ -34,7 +34,7 @@ const playersData = [
   {
     name: "Erling Haaland",
     matches: {
-      premierLeague: 22,
+      premierLeague: 23,
       championsLeague: 7,
       other: 1,
       Fa: 0,
@@ -43,7 +43,7 @@ const playersData = [
       nationalStats: 6,
     },
     goals: {
-      premierLeague: 17,
+      premierLeague: 18,
       championsLeague: 6,
       Fa: 0,
       frank: 0,
@@ -52,7 +52,7 @@ const playersData = [
       nationalStats: 7,
     },
     assists: {
-      premierLeague: 1,
+      premierLeague: 2,
       championsLeague: 0,
       other: 0,
       frank: 0,
@@ -68,13 +68,13 @@ const playersData = [
   {
     name: "Omar Marmoush",
     matches: {
-      premierLeague: 0, // Assuming he has played 2 matches in the Premier League for City
-      championsLeague: 0, // Assuming he played 1 Champions League match for City
+      premierLeague: 1,
+      championsLeague: 0,
       other: 0,
       Fa: 0,
-      Carabao: 0, // Assuming 1 Carabao Cup match
-      nationalStats: 4, // Stats from his national team matches
-      frank: 26, // Matches for his previous team in the Bundesliga
+      Carabao: 0,
+      nationalStats: 4,
+      frank: 26,
     },
     goals: {
       premierLeague: 0,
@@ -82,27 +82,27 @@ const playersData = [
       Fa: 0,
       other: 0,
       Carabao: 0,
-      nationalStats: 1, // Goals scored for his national team
-      frank: 20, // Goals scored for his previous team in the Bundesliga
+      nationalStats: 1,
+      frank: 20,
     },
     assists: {
       premierLeague: 0,
-      championsLeague: 0, // 1 assist in Champions League
+      championsLeague: 0,
       other: 0,
       Carabao: 0,
       Fa: 0,
-      nationalStats: 0, // 1 assist for his national team
-      frank: 14, // Assists for his previous team in the Bundesliga
+      nationalStats: 0,
+      frank: 14,
     },
-    age: 25, // Assuming his age
-    position: "LW", // Assuming he plays as a Left Winger
-    image: MarmoushImage, // Assuming the image file is added
-    nimg: Egypt, // Flag for Egypt (since he plays for Egypt's national team)
+    age: 25,
+    position: "ST",
+    image: MarmoushImage,
+    nimg: Egypt,
   },
   {
     name: "Phil Foden",
     matches: {
-      premierLeague: 17,
+      premierLeague: 18,
       championsLeague: 6,
       other: 0,
       Fa: 1,
@@ -111,7 +111,7 @@ const playersData = [
       nationalStats: 2,
     },
     goals: {
-      premierLeague: 6,
+      premierLeague: 7,
       championsLeague: 3,
       other: 0,
       Fa: 0,
@@ -171,7 +171,7 @@ const playersData = [
   // {
   //   name: "Josko Gvardiol",
   //   matches: {
-  //     premierLeague: 21,
+  //     premierLeague: 22,
   //     championsLeague: 7,
   //     other: 1,
   // frank: 0,
@@ -180,7 +180,7 @@ const playersData = [
   //     nationalStats: 6,
   //   },
   //   goals: {
-  //     premierLeague: 4,
+  //     premierLeague: 5,
   //     championsLeague: 0,
   //     other: 0,
   // frank: 0,
@@ -206,7 +206,7 @@ const playersData = [
   // {
   //   name: "Bernardo Silva",
   //   matches: {
-  //     premierLeague: 21,
+  //     premierLeague: 22,
   //     championsLeague: 6,
   // frank: 0,
   //     other: 1,
@@ -240,7 +240,7 @@ const playersData = [
   // {
   //   name: "Kevin De Bruyne",
   //   matches: {
-  //     premierLeague: 15,
+  //     premierLeague: 16,
   //     championsLeague: 5,
   // frank: 0,
   //     other: 1,
@@ -276,7 +276,7 @@ const playersData = [
   // {
   //   name: "Matheus Nunes",
   //   matches: {
-  //     premierLeague: 13,
+  //     premierLeague: 14,
   // frank: 0,
   //     championsLeague: 6,
   // Fa: 1,
@@ -294,7 +294,7 @@ const playersData = [
   //     nationalStats: 0,
   //   },
   //   assists: {
-  //     premierLeague: 3,
+  //     premierLeague: 4,
   //     championsLeague: 3,
   // Fa: 1,
   // frank: 0,

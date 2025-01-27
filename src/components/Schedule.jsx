@@ -1,40 +1,24 @@
 import PremierLeagueLogo from "../assets/images/prem.webp";
-import ChampionsLeagueLogo from "../assets/images/champions.png";
-import ParisSaintGerman from "../assets/images/psg.png";
+// import ChampionsLeagueLogo from "../assets/images/champions.png";
+// import ParisSaintGerman from "../assets/images/psg.png";
 import ManCityLogo from "../assets/images/logo.svg";
 import Tottenham from "../assets/images/tottenham.webp";
 import Liverpool from "../assets/images/lfc.webp";
 import ManUtd from "../assets/images/united.png";
-// import AstonVilla from "../assets/images/aston-villa.png";
+import AstonVilla from "../assets/images/aston-villa.png";
 // import Carabao from "../assets/images/carabao.png";
 // import WestHamLogo from "../assets/images/westham.png";
 import New from "../assets/images/newcastle.png";
-import ChelseaLogo from "../assets/images/Chelsea.webp";
+// import ChelseaLogo from "../assets/images/Chelsea.webp";
 import ArsenalLogo from "../assets/images/arsenal.png";
+import Juventus from "../assets/images/juv.jpg";
+import Fifacwc from "../assets/images/cwc.webp";
 // Full list of matches including additional teams
 const matches = [
   {
-    date: "2025-01-23",
-    opponent: "PSG",
-    time: "01:45",
-    venue: "Parc des Princes",
-    competition: "Champions League",
-    opponentLogo: ParisSaintGerman,
-    competitionLogo: ChampionsLeagueLogo,
-  },
-  {
-    date: "2025-01-25",
-    opponent: "Chelsea",
-    time: "23:15",
-    venue: "Etihad Stadium",
-    competition: "Premier League",
-    opponentLogo: ChelseaLogo,
-    competitionLogo: PremierLeagueLogo,
-  },
-  {
-    date: "2025-02-01",
+    date: "2025-02-02",
     opponent: "Arsenal",
-    time: "20:45",
+    time: "22:15",
     venue: "Emirates Stadium",
     competition: "Premier League",
     opponentLogo: ArsenalLogo,
@@ -77,6 +61,24 @@ const matches = [
     competition: "Premier League",
     opponentLogo: ManUtd,
     competitionLogo: PremierLeagueLogo,
+  },
+  {
+    date: "2025-04-26",
+    opponent: "Aston Villa",
+    time: "19:45",
+    venue: "Etihad Stadium",
+    competition: "Premier League",
+    opponentLogo: AstonVilla,
+    competitionLogo: PremierLeagueLogo,
+  },
+  {
+    date: "2025-06-27",
+    opponent: "Juventus",
+    time: "19:45",
+    venue: "Camping World Stadium",
+    competition: "Fifa CLub World Cup",
+    opponentLogo: Juventus,
+    competitionLogo: Fifacwc,
   },
 ];
 

@@ -27,9 +27,8 @@ const App = () => {
       </Routes>
 
       <Footer />
-      <InstallPopup/>s
+      <InstallPopup />
     </Router>
-  
   );
 };
 

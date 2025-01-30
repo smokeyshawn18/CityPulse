@@ -35,7 +35,7 @@ const playersData = [
     name: "Erling Haaland",
     matches: {
       premierLeague: 23,
-      championsLeague: 7,
+      championsLeague: 8,
       other: 1,
       Fa: 0,
       Carabao: 0,
@@ -103,7 +103,7 @@ const playersData = [
     name: "Phil Foden",
     matches: {
       premierLeague: 18,
-      championsLeague: 6,
+      championsLeague: 7,
       other: 0,
       Fa: 1,
       Carabao: 2,
@@ -172,7 +172,7 @@ const playersData = [
   //   name: "Josko Gvardiol",
   //   matches: {
   //     premierLeague: 22,
-  //     championsLeague: 7,
+  //     championsLeague: 8,
   //     other: 1,
   // frank: 0,
   //     Fa: 0,
@@ -207,7 +207,7 @@ const playersData = [
   //   name: "Bernardo Silva",
   //   matches: {
   //     premierLeague: 22,
-  //     championsLeague: 6,
+  //     championsLeague: 7,
   // frank: 0,
   //     other: 1,
   // Fa: 0,
@@ -241,7 +241,7 @@ const playersData = [
   //   name: "Kevin De Bruyne",
   //   matches: {
   //     premierLeague: 16,
-  //     championsLeague: 5,
+  //     championsLeague: 6,
   // frank: 0,
   //     other: 1,
   //     Carabao: 0,
@@ -278,7 +278,7 @@ const playersData = [
   //   matches: {
   //     premierLeague: 14,
   // frank: 0,
-  //     championsLeague: 6,
+  //     championsLeague: 7,
   // Fa: 1,
   //     other: 1,
   //     Carabao: 2,

@@ -1,5 +1,5 @@
 import PremierLeagueLogo from "../assets/images/prem.webp";
-// import ChampionsLeagueLogo from "../assets/images/champions.png";
+import ChampionsLeagueLogo from "../assets/images/champions.png";
 // import ParisSaintGerman from "../assets/images/psg.png";
 import ManCityLogo from "../assets/images/logo.svg";
 import Tottenham from "../assets/images/tottenham.webp";
@@ -13,6 +13,7 @@ import New from "../assets/images/newcastle.png";
 import ArsenalLogo from "../assets/images/arsenal.png";
 import Juventus from "../assets/images/juv.jpg";
 import Fifacwc from "../assets/images/cwc.webp";
+import Rma from "../assets/images/rma.png";
 // Full list of matches including additional teams
 const matches = [
   {
@@ -25,6 +26,15 @@ const matches = [
     competitionLogo: PremierLeagueLogo,
   },
   {
+    date: "2025-02-12",
+    opponent: "Real Madrid",
+    time: "01:45",
+    venue: "Etihad Stadium",
+    competition: "1st Leg (Round of 32) - Champions League",
+    opponentLogo: Rma,
+    competitionLogo: ChampionsLeagueLogo,
+  },
+  {
     date: "2025-02-15",
     opponent: "Newcastle",
     time: "20:45",
@@ -33,7 +43,15 @@ const matches = [
     opponentLogo: New,
     competitionLogo: PremierLeagueLogo,
   },
-
+  {
+    date: "2025-02-19",
+    opponent: "Real Madrid",
+    time: "01:45",
+    venue: "Santiago Bernabeu",
+    competition: "2nd Leg (Round of 32) - Champions League",
+    opponentLogo: Rma,
+    competitionLogo: ChampionsLeagueLogo,
+  },
   {
     date: "2025-02-23",
     opponent: "Liverpool",
@@ -217,8 +235,10 @@ const Schedule = () => {
                       new Date(`${match.date}T${match.time}`)
                     )}
                   </p>
-
-                  <p className="text-gray-700">{match.venue}</p>
+                  <p className="text-blue-900 font-bold">{match.competition}</p>
+                  <p className="text-gray-900 mt-2 font-bold uppercase tracking-widest">
+                    {match.venue}
+                  </p>
 
                   <button className="bg-[#0047AB] text-white font-semibold py-2 px-6 rounded-full mt-4 hover:bg-[#003578] transition-colors">
                     Enjoy The Game

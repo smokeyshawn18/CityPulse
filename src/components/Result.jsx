@@ -38,6 +38,7 @@ import Amad from "../assets/images/amad.webp";
 import Rogers from "../assets/images/rogers.jpg";
 import PSG from "../assets/images/psg.png";
 import Neves from "../assets/images/neves.webp";
+import Kai from "../assets/images/havertz.webp";
 
 const teamColors = {
   "Man City": "#6caddf",
@@ -409,6 +410,29 @@ const matches = [
     competitionLogo: PremierLeagueLogo,
     manOfTheMatch: Haaland,
     motm: "Erling Haaland",
+  },
+  {
+    id: 21,
+    homeTeam: "Man City",
+    awayTeam: "Arsenal",
+    scorers: {
+      home: ["Haaland 55'"],
+      away: [
+        "Odeguard 2'",
+        "Partey 56'",
+        "Lewis-Skelly 62'",
+        "Havertz 76'",
+        "Nwaneri 90+3'",
+      ],
+    },
+    timestamp: "2025-02-02T22:15:00",
+    time: "FT",
+    competition: "Premier League",
+    venue: "Emirates Stadium",
+    competitionLogo: PremierLeagueLogo,
+
+    manOfTheMatch: Kai,
+    motm: "Kai Havertz",
   },
 ];
 

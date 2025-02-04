@@ -1,4 +1,4 @@
-import PlayerCard from "./PlayerCard.jsx";
+import PlayerCard from "../components/PlayerCard.jsx";
 import PhilFoden from "../assets/images/fode.jpg";
 import ErlingHaaland from "../assets/images/haaland.jpg";
 import KevinDeBruyne from "../assets/images/kdb.jpg";
@@ -35,6 +35,7 @@ import Bob from "../assets/images/bob.jpg";
 import Mar from "../assets/images/marmoush.webp";
 import Eg from "../assets/images/eg.webp";
 import Arg from "../assets/images/arg.webp";
+import Nico from "../assets/images/nico.webp";
 // Sample player data
 const players = [
   {
@@ -144,7 +145,7 @@ const players = [
   },
   {
     name: "Omar Marmoush",
-    number: 0,
+    number: 7,
     position: "ST",
     age: 25,
     country: Eg,
@@ -422,7 +423,32 @@ const players = [
     },
     injured: false,
   },
-
+  {
+    name: "Nico Gonzalez",
+    number: 0,
+    position: "DM",
+    age: 23,
+    injury: "Torn ACL",
+    country: Spain,
+    injured: false,
+    injuryDetails: {
+      type: "Cruciate Ligament Injury",
+      recoveryTime: "Out for a Season!",
+      tm: "Sept 22, 2024",
+    },
+    injuryIcon: FaHospital,
+    image: Nico,
+    careerStats: {
+      goals: 5,
+      assists: 7,
+      appearances: 102,
+    },
+    seasonStats: {
+      goals: 7,
+      assists: 5,
+      appearances: 29,
+    },
+  },
   {
     name: "C. Echeverri",
     position: "AM",
@@ -485,11 +511,11 @@ const players = [
       assists: 1,
       appearances: 1,
     },
-    injured: true,
+    injured: false,
     injuryDetails: {
       tm: "Aug 14, 2024",
       type: "Broken Leg",
-      recoveryTime: "Early January 2025",
+      recoveryTime: "Early Feb 2025",
     },
     injuryIcon: FaHospital,
   },

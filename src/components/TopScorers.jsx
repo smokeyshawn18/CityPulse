@@ -254,18 +254,18 @@ const playersData = [
     status: "Active",
     competitions: {
       premierLeague: {
-        matches: 172,
-        goals: 54,
-        assists: 27,
+        matches: 183,
+        goals: 61,
+        assists: 28,
         logo: premierLeagueLogo,
       },
       championsLeague: {
-        matches: 56,
-        goals: 18,
+        matches: 60,
+        goals: 19,
         assists: 12,
         logo: championsLeagueLogo,
       },
-      faCup: { matches: 26, goals: 12, assists: 8, logo: faCupLogo },
+      faCup: { matches: 27, goals: 12, assists: 9, logo: faCupLogo },
       communityShield: {
         matches: 4,
         goals: 0,

@@ -4,10 +4,10 @@ import Tot from "../assets/images/united.png";
 import City from "../assets/images/logo.svg";
 import { FaMapMarkerAlt, FaClock, FaTicketAlt } from "react-icons/fa";
 import { useState, useMemo, useEffect, useCallback } from "react";
-import Kit from "./Kit";
-import CoachProfile from "./Coach";
-import KeyPerformers from "./KeyPerformers";
-import Happening from "./Happening";
+import Kit from "../components/Kit";
+import CoachProfile from "../components/Coach";
+import KeyPerformers from "../pages/KeyPerformers";
+import Happening from "../components/Happening";
 import PremierLeagueLogo from "../assets/images/prem.webp";
 
 const Home = () => {
@@ -209,7 +209,7 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-60 rounded-3xl"></div>
           <div className="absolute bottom-0 left-0 p-4 sm:p-8 text-white">
-            <h1 className="text-4xl sm:text-6xl font-bold">CityPulse</h1>
+            <h1 className="text-4xl sm:text-6xl font-bold">MCityX</h1>
             <p className="text-md sm:text-lg font-medium mt-2 sm:mt-3">
               Your Home for Manchester City.
             </p>

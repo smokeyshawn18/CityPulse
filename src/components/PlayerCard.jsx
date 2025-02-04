@@ -5,6 +5,7 @@ import {
   FaRegFutbol,
   FaRunning,
   FaFlag,
+  FaTshirt,
   FaTrophy,
 } from "react-icons/fa";
 import { CiMedicalCross } from "react-icons/ci";
@@ -15,29 +16,25 @@ const PlayerCard = ({ player }) => {
   const [careerStats, setCareerStats] = useState(player.careerStats);
 
   useEffect(() => {
-    // Automatically update career stats when the season stats change
     if (player.position === "GK") {
-      setCareerStats((prevCareerStats) => ({
-        ...prevCareerStats,
+      setCareerStats({
         appearances:
-          prevCareerStats.appearances + player.seasonStats.appearances,
+          player.careerStats.appearances + player.seasonStats.appearances,
         goalsConceded:
-          (prevCareerStats.goalsConceded || 0) +
-          player.seasonStats.goalsConceded,
+          player.careerStats.goalsConceded + player.seasonStats.goalsConceded,
         cleanSheets:
-          (prevCareerStats.cleanSheets || 0) + player.seasonStats.cleanSheets,
-      }));
+          player.careerStats.cleanSheets + player.seasonStats.cleanSheets,
+      });
     } else {
-      // For field players, include goals and assists as well
-      setCareerStats((prevCareerStats) => ({
-        ...prevCareerStats,
+      setCareerStats({
         appearances:
-          prevCareerStats.appearances + player.seasonStats.appearances,
-        goals: prevCareerStats.goals + player.seasonStats.goals,
-        assists: prevCareerStats.assists + player.seasonStats.assists,
-      }));
+          player.careerStats.appearances + player.seasonStats.appearances,
+        goals: player.careerStats.goals + player.seasonStats.goals,
+        assists: player.careerStats.assists + player.seasonStats.assists,
+      });
     }
-  }, [player.seasonStats, player.position]); // Dependency array triggers when seasonStats or player position changes
+  }, [player]); // Depend only on `player` to prevent unnecessary re-renders
+  // Dependency array triggers when seasonStats or player position changes
 
   return (
     <div className="relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-3xl duration-300 ease-in-out">
@@ -65,6 +62,11 @@ const PlayerCard = ({ player }) => {
           </div>
         )}
 
+        <p className="font-bold text-3xl text-center mt-2 mb-4 text-black flex items-center justify-center gap-2">
+          <FaTshirt className="text-[#702020] text-4xl" />
+          {player.number}
+        </p>
+
         <p className="text-[#000000] mb-4 text-xl font-bold text-center">
           {player.position}
         </p>
@@ -75,7 +77,7 @@ const PlayerCard = ({ player }) => {
           className="w-10 h-8 mx-auto mb-4"
         />
 
-        <p className="text-[#245664] mb-6 text-xl font-bold text-center uppercase">
+        <p className="text-[#10252b] mb-6 text-2xl font-bold text-center uppercase">
           {player.age}
         </p>
 

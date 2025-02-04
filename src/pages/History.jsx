@@ -6,7 +6,7 @@ import stadiumImg from "../assets/images/etihad.jpg";
 import leagueCupImg from "../assets/images/league.png";
 import Goat from "../assets/images/pep.jpg";
 import Evolution from "../assets/images/logoevo.jpg";
-import TopScorers from "./TopScorers";
+import TopScorers from "../components/TopScorers";
 
 const timelineData = [
   {

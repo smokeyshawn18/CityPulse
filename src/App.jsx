@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
-import Schedule from "./components/Schedule.jsx";
-import Results from "./components/Result.jsx";
-import TrophyCabinet from "./components/Trophy.jsx";
-import PlayerSection from "./components/PlayerSection.jsx";
+import Schedule from "./pages/Schedule.jsx";
+import Results from "./pages/Result.jsx";
+import TrophyCabinet from "./pages/Trophy.jsx";
+import PlayerSection from "./pages/PlayerSection.jsx";
 import Footer from "./components/Footer.jsx";
-import History from "./components/History.jsx";
+import History from "./pages/History.jsx";
 import News from "./components/News.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import InstallPopup from "./components/InstallApp.jsx";

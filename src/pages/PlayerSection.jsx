@@ -147,7 +147,7 @@ const players = [
     name: "Omar Marmoush",
     number: 7,
     position: "ST",
-    age: 25,
+    age: 26,
     country: Eg,
     image: Mar,
 

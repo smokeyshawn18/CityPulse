@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  plugins: [react(),
+  plugins: [
+    react(),
     VitePWA({
       registerType: "autoUpdate", // Automatically register the service worker
       includeAssets: ["favicon.ico", "/logo.png"], // Include these assets in the PWA
@@ -26,10 +27,9 @@ export default defineConfig({
         ],
       },
     }),
-
   ],
-  
+
   build: {
-    outDir: "build", // Set the output directory to 'dist'
+    outDir: "dist", // Set the output directory to 'dist'
   },
 });

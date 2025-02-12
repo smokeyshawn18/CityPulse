@@ -39,6 +39,7 @@ import Rogers from "../assets/images/rogers.jpg";
 import PSG from "../assets/images/psg.png";
 import Neves from "../assets/images/neves.webp";
 import Kai from "../assets/images/havertz.webp";
+import Vini from "../assets/images/vini.webp";
 
 const teamColors = {
   "Man City": "#6caddf",
@@ -433,6 +434,23 @@ const matches = [
 
     manOfTheMatch: Kai,
     motm: "Kai Havertz",
+  },
+  {
+    id: 22,
+    homeTeam: "Man City",
+    awayTeam: "Real Madrid",
+    scorers: {
+      home: ["Haaland 19', 80(pen)'"],
+      away: ["Mbappe 60'", "B. Diaz 86'", "Bellingham 90+2'"],
+    },
+    timestamp: "2025-02-12T01:45:00",
+    time: "FT",
+    competition: "Champions League",
+    venue: "Etihad Stadium",
+    competitionLogo: ChampionsLeague,
+
+    manOfTheMatch: Vini,
+    motm: "Vini Jr",
   },
 ];
 

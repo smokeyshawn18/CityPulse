@@ -270,7 +270,7 @@ const players = [
       assists: 0,
       appearances: 17,
     },
-    injured: true,
+    injured: false,
     injuryDetails: {
       tm: "Jan 19, 2025",
       type: "Muscle Injury",

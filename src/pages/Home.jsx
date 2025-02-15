@@ -14,7 +14,7 @@ const Home = () => {
   const matchDay = useMemo(
     () => [
       {
-        date: "2025-02-15",
+        date: "2025-01-15",
         opponent: "NewCastle",
         team: "Man City",
         time: "20:45", // Match time in local format

@@ -52,8 +52,8 @@ const players = [
     },
     seasonStats: {
       goals: 34,
-      assists: 3,
-      appearances: 40,
+      assists: 4,
+      appearances: 41,
     },
   },
 
@@ -117,8 +117,8 @@ const players = [
     },
     seasonStats: {
       goals: 2,
-      assists: 1,
-      appearances: 33,
+      assists: 2,
+      appearances: 34,
     },
     injured: false,
   },
@@ -139,7 +139,7 @@ const players = [
     seasonStats: {
       goals: 10,
       assists: 4,
-      appearances: 33,
+      appearances: 34,
     },
     injured: false,
   },
@@ -157,9 +157,9 @@ const players = [
       appearances: 181,
     },
     seasonStats: {
-      goals: 21,
+      goals: 24,
       assists: 14,
-      appearances: 34,
+      appearances: 35,
     },
     injured: false,
   },
@@ -180,11 +180,11 @@ const players = [
       assists: 5,
       appearances: 27,
     },
-    injured: false,
+    injured: true,
     injuryDetails: {
-      tm: "Oct 24, 2024",
-      type: "Knock",
-      recoveryTime: "Early November 2024",
+      tm: "Feb 11, 2025",
+      type: "Groin Injury",
+      recoveryTime: "Doubtful ",
     },
     injuryIcon: FaHospital,
   },
@@ -203,7 +203,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 1,
-      appearances: 32,
+      appearances: 33,
     },
     injured: false,
   },
@@ -249,7 +249,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 8,
-      appearances: 26,
+      appearances: 27,
     },
     injured: false,
   },
@@ -293,7 +293,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 2,
-      appearances: 20,
+      appearances: 21,
     },
     injured: false,
     injuryDetails: {
@@ -318,7 +318,26 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 1,
-      appearances: 41,
+      appearances: 42,
+    },
+    injured: false,
+  },
+  {
+    name: "James McAtee",
+    position: "AM",
+    number: 87,
+    age: 21,
+    country: England,
+    image: James,
+    careerStats: {
+      goals: 14,
+      assists: 7,
+      appearances: 82,
+    },
+    seasonStats: {
+      goals: 6,
+      assists: 1,
+      appearances: 17,
     },
     injured: false,
   },
@@ -339,7 +358,13 @@ const players = [
       assists: 1,
       appearances: 34,
     },
-    injured: false,
+    injured: true,
+    injuryDetails: {
+      tm: "Feb 11, 2025",
+      type: "Muscle Injury",
+      recoveryTime: "Early March!",
+    },
+    injuryIcon: FaHospital,
   },
   {
     name: "Ruben Dias",
@@ -366,25 +391,7 @@ const players = [
     },
     injuryIcon: FaHospital,
   },
-  {
-    name: "James McAtee",
-    position: "AM",
-    number: 87,
-    age: 21,
-    country: England,
-    image: James,
-    careerStats: {
-      goals: 14,
-      assists: 7,
-      appearances: 82,
-    },
-    seasonStats: {
-      goals: 5,
-      assists: 1,
-      appearances: 16,
-    },
-    injured: false,
-  },
+
   {
     name: "Savinho",
     number: 26,
@@ -399,8 +406,8 @@ const players = [
     },
     seasonStats: {
       goals: 2,
-      assists: 9,
-      appearances: 36,
+      assists: 10,
+      appearances: 37,
     },
     injured: false,
   },
@@ -419,13 +426,13 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 8,
-      appearances: 27,
+      appearances: 28,
     },
     injured: false,
   },
   {
     name: "Nico Gonzalez",
-    number: 0,
+    number: 14,
     position: "DM",
     age: 23,
     injury: "Torn ACL",
@@ -446,7 +453,7 @@ const players = [
     seasonStats: {
       goals: 7,
       assists: 5,
-      appearances: 30,
+      appearances: 31,
     },
   },
   {
@@ -490,7 +497,7 @@ const players = [
     seasonStats: {
       goals: 1,
       assists: 5,
-      appearances: 36,
+      appearances: 37,
     },
     injured: false,
   },
@@ -534,7 +541,7 @@ const players = [
     seasonStats: {
       goalsConceded: 41,
       cleanSheets: 6,
-      appearances: 28,
+      appearances: 29,
     },
     injured: false,
   },

@@ -40,6 +40,7 @@ import PSG from "../assets/images/psg.png";
 import Neves from "../assets/images/neves.webp";
 import Kai from "../assets/images/havertz.webp";
 import Vini from "../assets/images/vini.webp";
+import Omar from "../assets/images/marmoush.webp";
 
 const teamColors = {
   "Man City": "#6caddf",
@@ -451,6 +452,23 @@ const matches = [
 
     manOfTheMatch: Vini,
     motm: "Vini Jr",
+  },
+  {
+    id: 23,
+    homeTeam: "Man City",
+    awayTeam: "NewCastle",
+    scorers: {
+      home: ["Marmoush 19', 24', 33'", "McAtee 84'"],
+      away: [],
+    },
+    timestamp: "2025-02-15T20:45",
+    time: "FT",
+    competition: "Premier League",
+    venue: "Etihad Stadium",
+    competitionLogo: PremierLeagueLogo,
+
+    manOfTheMatch: Omar,
+    motm: "Omar Marmoush",
   },
 ];
 

@@ -17,34 +17,7 @@ import Rma from "../assets/images/rma.png";
 // Full list of matches including additional teams
 const matches = [
   {
-    date: "2025-02-02",
-    opponent: "Arsenal",
-    time: "22:15",
-    venue: "Emirates Stadium",
-    competition: "Premier League",
-    opponentLogo: ArsenalLogo,
-    competitionLogo: PremierLeagueLogo,
-  },
-  {
-    date: "2025-02-12",
-    opponent: "Real Madrid",
-    time: "01:45",
-    venue: "Etihad Stadium",
-    competition: "1st Leg (Round of 32) - Champions League",
-    opponentLogo: Rma,
-    competitionLogo: ChampionsLeagueLogo,
-  },
-  {
-    date: "2025-02-15",
-    opponent: "Newcastle",
-    time: "20:45",
-    venue: "Etihad Stadium",
-    competition: "Premier League",
-    opponentLogo: New,
-    competitionLogo: PremierLeagueLogo,
-  },
-  {
-    date: "2025-02-19",
+    date: "2025-02-20",
     opponent: "Real Madrid",
     time: "01:45",
     venue: "Santiago Bernabeu",

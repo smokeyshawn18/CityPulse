@@ -69,7 +69,7 @@ const playersData = [
     name: "Omar Marmoush",
     matches: {
       premierLeague: 3,
-      championsLeague: 1,
+      championsLeague: 2,
       other: 0,
       Fa: 1,
       Carabao: 0,
@@ -87,7 +87,7 @@ const playersData = [
     },
     assists: {
       premierLeague: 0,
-      championsLeague: 0,
+      championsLeague: 1,
       other: 0,
       Carabao: 0,
       Fa: 0,
@@ -103,7 +103,7 @@ const playersData = [
     name: "Phil Foden",
     matches: {
       premierLeague: 20,
-      championsLeague: 8,
+      championsLeague: 9,
       other: 0,
       Fa: 2,
       Carabao: 2,
@@ -207,7 +207,7 @@ const playersData = [
   //   name: "Bernardo Silva",
   //   matches: {
   //     premierLeague: 23,
-  //     championsLeague: 8,
+  //     championsLeague: 9,
   //     frank: 0,
   //     other: 1,
   //     Fa: 1,

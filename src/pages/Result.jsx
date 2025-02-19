@@ -470,6 +470,23 @@ const matches = [
     manOfTheMatch: Omar,
     motm: "Omar Marmoush",
   },
+  {
+    id: 24,
+    homeTeam: "Man City",
+    awayTeam: "Real Madrid",
+    scorers: {
+      home: ["Nico Gonzalez 90+2'"],
+      away: ["Mbappe 4', 33', 61'"],
+    },
+    timestamp: "2025-02-20T01:45:00",
+    time: "FT",
+    competition: "Champions League",
+    venue: "Santiago Bernabeu",
+    competitionLogo: ChampionsLeague,
+
+    manOfTheMatch: Vini,
+    motm: "Kylian Mbappe",
+  },
 ];
 
 const formatDateTime = (dateTimeString) => {

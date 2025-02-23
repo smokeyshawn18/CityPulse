@@ -1,5 +1,5 @@
 import heroImage from "../assets/images/home.jpeg";
-import Tot from "../assets/images/newcastle.png";
+import Tot from "../assets/images/liverpool.png";
 
 import City from "../assets/images/logo.svg";
 import { FaMapMarkerAlt, FaClock, FaTicketAlt } from "react-icons/fa";
@@ -14,10 +14,10 @@ const Home = () => {
   const matchDay = useMemo(
     () => [
       {
-        date: "2025-01-15",
-        opponent: "NewCastle",
+        date: "2025-02-23",
+        opponent: "Liverpool",
         team: "Man City",
-        time: "20:45", // Match time in local format
+        time: "22:15", // Match time in local format
         venue: "Etihad Stadium",
         opponentLogo: Tot,
         competition: PremierLeagueLogo,

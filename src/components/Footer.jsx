@@ -57,7 +57,7 @@ function Footer() {
           </NavLink>
           <div className="bg-white/30 p-4 rounded-xl shadow-2xl backdrop-blur-xl animate-fade-in-down">
             <p className="text-xl sm:text-2xl font-extrabold uppercase text-gray-900">
-              CityPulse
+              MCityX
             </p>
             <p className="text-lg sm:text-xl font-semibold text-black">
               Ultimate source for Man City Fans.
@@ -144,7 +144,7 @@ function Footer() {
       {/* Footer Bottom Text */}
       <div className="relative z-10 text-center mt-8 text-sm md:text-base">
         <p className="bg-white/40 backdrop-blur-xl rounded-lg shadow-2xl inline-block px-4 py-2 md:px-6 md:py-3 font-bold text-gray-900">
-          Copyright © {new Date().getFullYear()} - CityPulse. All rights
+          Copyright © {new Date().getFullYear()} - smokeyshawn18. All rights
           reserved.
         </p>
       </div>

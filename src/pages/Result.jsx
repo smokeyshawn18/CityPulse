@@ -41,6 +41,7 @@ import Neves from "../assets/images/neves.webp";
 import Kai from "../assets/images/havertz.webp";
 import Vini from "../assets/images/vini.webp";
 import Omar from "../assets/images/marmoush.webp";
+import Mbappe from "../assets/images/mbappe.webp";
 
 const teamColors = {
   "Man City": "#6caddf",
@@ -484,7 +485,7 @@ const matches = [
     venue: "Santiago Bernabeu",
     competitionLogo: ChampionsLeague,
 
-    manOfTheMatch: Vini,
+    manOfTheMatch: Mbappe,
     motm: "Kylian Mbappe",
   },
 ];

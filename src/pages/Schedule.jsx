@@ -14,6 +14,7 @@ import ArsenalLogo from "../assets/images/arsenal.png";
 import Juventus from "../assets/images/juv.jpg";
 import Fifacwc from "../assets/images/cwc.webp";
 import Rma from "../assets/images/rma.png";
+import Not from "../assets/images/not.png";
 // Full list of matches including additional teams
 const matches = [
   {
@@ -42,6 +43,15 @@ const matches = [
     venue: "Tottenham Hotspur Stadium",
     competition: "Premier League",
     opponentLogo: Tottenham,
+    competitionLogo: PremierLeagueLogo,
+  },
+  {
+    date: "2025-03-08",
+    opponent: "N. Forest",
+    time: "19:45",
+    venue: "City Ground, Nottingham",
+    competition: "Premier League",
+    opponentLogo: Not,
     competitionLogo: PremierLeagueLogo,
   },
   {

@@ -12,7 +12,7 @@ export default function CoachProfile() {
   // Define individual stats
   const wins = 369; // Example value
   const draws = 64; // Example value
-  const losses = 79; // Example value
+  const losses = 80; // Example value
   const totalTrophies = 18; // Example value
 
   // Calculate total matches and win percentage

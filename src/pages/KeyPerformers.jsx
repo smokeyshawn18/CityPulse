@@ -68,7 +68,7 @@ const playersData = [
   {
     name: "Omar Marmoush",
     matches: {
-      premierLeague: 3,
+      premierLeague: 4,
       championsLeague: 2,
       other: 0,
       Fa: 1,
@@ -102,7 +102,7 @@ const playersData = [
   {
     name: "Phil Foden",
     matches: {
-      premierLeague: 20,
+      premierLeague: 21,
       championsLeague: 9,
       other: 0,
       Fa: 2,
@@ -136,7 +136,7 @@ const playersData = [
   // {
   //   name: "Jeremy Doku",
   //   matches: {
-  //     premierLeague: 15,
+  //     premierLeague: 16,
   //     championsLeague: 4,
   //     other: 1,
   //     Carabao: 1,
@@ -171,7 +171,7 @@ const playersData = [
   // {
   //   name: "Josko Gvardiol",
   //   matches: {
-  //     premierLeague: 24,
+  //     premierLeague: 25,
   //     championsLeague: 9,
   //     other: 1,
   //     frank: 0,
@@ -240,7 +240,7 @@ const playersData = [
   // {
   //   name: "Kevin De Bruyne",
   //   matches: {
-  //     premierLeague: 17,
+  //     premierLeague: 18,
   //     championsLeague: 7,
   //     frank: 0,
   //     other: 1,

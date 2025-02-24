@@ -488,6 +488,23 @@ const matches = [
     manOfTheMatch: Mbappe,
     motm: "Kylian Mbappe",
   },
+  {
+    id: 25,
+    homeTeam: "Man City",
+    awayTeam: "Liverpool",
+    scorers: {
+      home: [],
+      away: ["Salah 14'", "Szoboszlai 37'"],
+    },
+    timestamp: "2025-02-23T22:15",
+    time: "FT",
+    competition: "Premier League",
+    venue: "Etihad Stadium",
+    competitionLogo: PremierLeagueLogo,
+
+    manOfTheMatch: Salah,
+    motm: "Mohammad Salah",
+  },
 ];
 
 const formatDateTime = (dateTimeString) => {

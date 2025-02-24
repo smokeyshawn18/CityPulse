@@ -7,14 +7,14 @@ const Navbar = () => {
 
   const handleNavLinkClick = () => {
     setIsOpen(false); // Close the navbar when a link is clicked
-    window.scrollTo(0, 0); // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Smooth scroll to top
   };
 
   return (
     <nav className="bg-[#6caddf] p-4 sticky top-0 z-50 shadow-md">
       <div className="w-full max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo & Centered Nav Links */}
-        <div className="flex-1 flex justify-center items-center">
+        {/* Logo & Title */}
+        <div className="flex items-center space-x-3">
           <a href="/" className="flex items-center space-x-3">
             <img
               src={logo}
@@ -27,31 +27,34 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Desktop Menu */}
-        <div className="hidden lg:flex space-x-8 text-xl">
+        {/* Desktop Navigation */}
+        <div className="hidden lg:flex space-x-6 text-lg font-semibold">
           {[
-            { path: "/", label: "Home" },
-            { path: "/Schedule", label: "Schedule" },
-            { path: "/Results", label: "Results" },
-            { path: "/Trophy-Cabinet", label: "Trophy Cabinet" },
-            { path: "/Player-Card", label: "Player Card" },
-            { path: "/History", label: "History" },
-          ].map(({ path, label }, index) => (
+            "Home",
+            "Schedule",
+            "Results",
+            "Trophy Cabinet",
+            "Player Card",
+            "History",
+          ].map((label, index) => (
             <NavLink
               key={index}
-              to={path}
+              to={`/${label.replace(/\s+/g, "-").toLowerCase()}`}
               className={({ isActive }) =>
-                isActive
-                  ? "text-white bg-sky-900 rounded-md font-bold px-5 py-3 transition duration-300 shadow-lg"
-                  : "text-white hover:bg-sky-900 hover:text-sky-300 rounded-md font-bold px-5 py-3 transition duration-300"
+                `px-5 py-2 rounded-md transition-all duration-300 shadow-md font-bold ${
+                  isActive
+                    ? "bg-sky-900 text-white"
+                    : "text-white hover:bg-sky-800 hover:text-sky-300"
+                }`
               }
+              onClick={handleNavLinkClick}
             >
               {label}
             </NavLink>
           ))}
         </div>
 
-        {/* Mobile Menu Button (Right) */}
+        {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="lg:hidden text-white focus:outline-none"
@@ -59,9 +62,9 @@ const Navbar = () => {
           {isOpen ? (
             <svg
               className="w-8 h-8"
+              viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              viewBox="0 0 24 24"
             >
               <path
                 strokeLinecap="round"
@@ -73,9 +76,9 @@ const Navbar = () => {
           ) : (
             <svg
               className="w-8 h-8"
+              viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              viewBox="0 0 24 24"
             >
               <path
                 strokeLinecap="round"
@@ -88,31 +91,43 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="lg:hidden mt-4 bg-sky-200 rounded-lg shadow-md p-4 space-y-3">
+      <div
+        className={`lg:hidden fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm transform transition-all duration-300 ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      >
+        <div className="w-full h-full bg-[#6caddf] p-6 shadow-lg flex flex-col space-y-4 relative">
+          <button
+            onClick={() => setIsOpen(false)}
+            className="absolute top-4 right-4 text-white text-2xl"
+          >
+            &times;
+          </button>
           {[
-            { path: "/", label: "Home" },
-            { path: "/Schedule", label: "Schedule" },
-            { path: "/Results", label: "Results" },
-            { path: "/Trophy-Cabinet", label: "Trophy Cabinet" },
-            { path: "/Player-Card", label: "Player Card" },
-            { path: "/History", label: "History" },
-          ].map(({ path, label }, index) => (
+            "Home",
+            "Schedule",
+            "Results",
+            "Trophy Cabinet",
+            "Player Card",
+            "History",
+          ].map((label, index) => (
             <NavLink
               key={index}
-              to={path}
+              to={`/${label.replace(/\s+/g, "-").toLowerCase()}`}
               className={({ isActive }) =>
-                isActive
-                  ? "block px-4 py-2 rounded-md text-lg bg-sky-900 text-white transition duration-300"
-                  : "block px-4 py-2 rounded-md text-lg text-sky-700 hover:bg-sky-400 hover:text-white transition duration-300"
+                `block px-6 py-4 rounded-md text-lg font-bold transition duration-300 ${
+                  isActive
+                    ? "bg-sky-900 text-white"
+                    : "text-white hover:bg-sky-800"
+                }`
               }
+              onClick={handleNavLinkClick}
             >
               {label}
             </NavLink>
           ))}
         </div>
-      )}
+      </div>
     </nav>
   );
 };

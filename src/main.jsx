@@ -19,7 +19,7 @@ const App = () => {
       <Navbar />
       <ScrollToTop />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/results" element={<Results />} />

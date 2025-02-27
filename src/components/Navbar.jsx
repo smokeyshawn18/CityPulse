@@ -39,7 +39,11 @@ const Navbar = () => {
           ].map((label, index) => (
             <NavLink
               key={index}
-              to={`/${label.replace(/\s+/g, "-").toLowerCase()}`}
+              to={
+                label === "Home"
+                  ? "/"
+                  : `/${label.replace(/\s+/g, "-").toLowerCase()}`
+              }
               className={({ isActive }) =>
                 `px-5 py-2 rounded-md transition-all duration-300 shadow-md font-bold ${
                   isActive

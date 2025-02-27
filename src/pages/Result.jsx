@@ -505,6 +505,23 @@ const matches = [
     manOfTheMatch: Salah,
     motm: "Mohammad Salah",
   },
+  {
+    id: 26,
+    homeTeam: "Man City",
+    awayTeam: "Tottenham",
+    scorers: {
+      home: ["Haaland 12'"],
+      away: [],
+    },
+    timestamp: "2025-02-27T01:15",
+    time: "FT",
+    competition: "Premier League",
+    venue: "Tottenham Hotspur Stadium",
+    competitionLogo: PremierLeagueLogo,
+
+    manOfTheMatch: Haaland,
+    motm: "Erling Haaland",
+  },
 ];
 
 const formatDateTime = (dateTimeString) => {

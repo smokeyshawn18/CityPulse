@@ -52,8 +52,8 @@ const players = [
     },
     seasonStats: {
       goals: 35,
-      assists: 4,
-      appearances: 42,
+      assists: 5,
+      appearances: 43,
     },
   },
 
@@ -70,9 +70,9 @@ const players = [
       appearances: 716,
     },
     seasonStats: {
-      goals: 5,
-      assists: 6,
-      appearances: 29,
+      goals: 6,
+      assists: 7,
+      appearances: 30,
     },
     injured: false,
     injuryDetails: {
@@ -98,7 +98,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 4,
-      appearances: 41,
+      appearances: 42,
     },
     injured: false,
   },
@@ -118,7 +118,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 2,
-      appearances: 37,
+      appearances: 38,
     },
     injured: false,
   },
@@ -138,8 +138,8 @@ const players = [
     },
     seasonStats: {
       goals: 10,
-      assists: 4,
-      appearances: 37,
+      assists: 5,
+      appearances: 38,
     },
     injured: false,
   },
@@ -178,7 +178,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 5,
-      appearances: 28,
+      appearances: 29,
     },
     injured: false,
     injuryDetails: {
@@ -337,7 +337,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 1,
-      appearances: 20,
+      appearances: 21,
     },
     injured: false,
   },
@@ -381,7 +381,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 30,
+      appearances: 31,
     },
     injured: false,
     injuryDetails: {
@@ -453,7 +453,7 @@ const players = [
     seasonStats: {
       goals: 8,
       assists: 5,
-      appearances: 34,
+      appearances: 35,
     },
   },
   {
@@ -473,7 +473,7 @@ const players = [
       assists: 0,
       appearances: 0,
     },
-    injured: true,
+    injured: false,
     injuryDetails: {
       tm: "Jan 01, 2025",
       type: "Will Join the Team at March",
@@ -497,7 +497,7 @@ const players = [
     seasonStats: {
       goals: 1,
       assists: 5,
-      appearances: 38,
+      appearances: 39,
     },
     injured: false,
   },
@@ -558,9 +558,9 @@ const players = [
       appearances: 318,
     },
     seasonStats: {
-      goalsConceded: 17,
+      goalsConceded: 18,
       cleanSheets: 4,
-      appearances: 14,
+      appearances: 15,
     },
     injured: false,
   },

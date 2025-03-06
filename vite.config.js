@@ -32,4 +32,16 @@ export default defineConfig({
   build: {
     outDir: "dist", // Set the output directory to 'dist'
   },
+  server: {
+    proxy: {
+      "/api/matches": {
+        target: "https://api.football-data.org/v4/teams/65/matches",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/matches/, ""),
+        headers: {
+          "X-Auth-Token": "567be25f8bc3458ca94d4023eb091e93",
+        },
+      },
+    },
+  },
 });

@@ -14,9 +14,7 @@ const LiveMatches = () => {
         return response.json();
       })
       .then((data) => {
-        console.log("API Response: ", data);
         if (data.matches && Array.isArray(data.matches)) {
-          // Filter for live matches (IN_PLAY or PAUSED)
           const currentMatches = data.matches.filter(
             (match) => match.status === "IN_PLAY" || match.status === "PAUSED"
           );

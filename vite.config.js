@@ -33,6 +33,8 @@ export default defineConfig({
     outDir: "dist", // Set the output directory to 'dist'
   },
   server: {
+    host: true, // Ensures the server runs on all interfaces
+    allowedHosts: [".onrender.com"], // Allows all Render subdomains
     proxy: {
       "/api/matches": {
         target: "https://api.football-data.org/v4/teams/65/matches",

@@ -73,7 +73,7 @@ const playersData = [
       other: 0,
       Fa: 1,
       Carabao: 0,
-      nationalStats: 4,
+      nationalStats: 5,
       frank: 26,
     },
     goals: {
@@ -108,7 +108,7 @@ const playersData = [
       Fa: 3,
       Carabao: 2,
       frank: 0,
-      nationalStats: 2,
+      nationalStats: 3,
     },
     goals: {
       premierLeague: 7,
@@ -142,7 +142,7 @@ const playersData = [
   //     Carabao: 1,
   //     frank: 0,
   //     Fa: 1,
-  //     nationalStats: 4,
+  //     nationalStats: 5,
   //   },
   //   goals: {
   //     premierLeague: 2,
@@ -160,7 +160,7 @@ const playersData = [
   //     Carabao: 0,
   //     frank: 0,
   //     Fa: 2,
-  //     nationalStats: 1,
+  //     nationalStats: 2,
   //   },
   //   nimg: Belgium,
   //   age: 22,
@@ -177,7 +177,7 @@ const playersData = [
   //     frank: 0,
   //     Fa: 0,
   //     Carabao: 2,
-  //     nationalStats: 7,
+  //     nationalStats: 8,
   //   },
   //   goals: {
   //     premierLeague: 5,
@@ -212,7 +212,7 @@ const playersData = [
   //     other: 1,
   //     Fa: 2,
   //     Carabao: 1,
-  //     nationalStats: 6,
+  //     nationalStats: 7,
   //   },
   //   goals: {
   //     premierLeague: 2,
@@ -246,7 +246,7 @@ const playersData = [
   //     other: 1,
   //     Carabao: 0,
   //     Fa: 2,
-  //     nationalStats: 3,
+  //     nationalStats: 4,
   //   },
   //   goals: {
   //     premierLeague: 2,
@@ -265,7 +265,7 @@ const playersData = [
   //     other: 0,
   //     Carabao: 0,
   //     Fa: 1,
-  //     nationalStats: 1,
+  //     nationalStats: 2,
   //   },
   //   nimg: Belgium,
   //   age: 33,

@@ -40,7 +40,7 @@ const playersData = [
       Fa: 1,
       Carabao: 0,
       frank: 0,
-      nationalStats: 6,
+      nationalStats: 8,
     },
     goals: {
       premierLeague: 21,
@@ -49,7 +49,7 @@ const playersData = [
       frank: 0,
       other: 0,
       Carabao: 0,
-      nationalStats: 7,
+      nationalStats: 9,
     },
     assists: {
       premierLeague: 3,
@@ -108,7 +108,7 @@ const playersData = [
       Fa: 3,
       Carabao: 2,
       frank: 0,
-      nationalStats: 3,
+      nationalStats: 4,
     },
     goals: {
       premierLeague: 7,
@@ -126,7 +126,7 @@ const playersData = [
       frank: 0,
       Fa: 2,
       Carabao: 0,
-      nationalStats: 0,
+      nationalStats: 1,
     },
     age: 24,
     position: "AM",

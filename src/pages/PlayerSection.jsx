@@ -36,6 +36,7 @@ import Mar from "../assets/images/marmoush.webp";
 import Eg from "../assets/images/eg.webp";
 import Arg from "../assets/images/arg.webp";
 import Nico from "../assets/images/nico.webp";
+import Orielly from "../assets/images/oriely.webp";
 // Sample player data
 const players = [
   {
@@ -51,9 +52,9 @@ const players = [
       appearances: 312,
     },
     seasonStats: {
-      goals: 38,
+      goals: 39,
       assists: 5,
-      appearances: 47,
+      appearances: 48,
     },
   },
 
@@ -72,7 +73,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 9,
-      appearances: 34,
+      appearances: 35,
     },
     injured: false,
     injuryDetails: {
@@ -98,7 +99,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 4,
-      appearances: 46,
+      appearances: 47,
     },
     injured: false,
   },
@@ -118,7 +119,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 3,
-      appearances: 39,
+      appearances: 40,
     },
     injured: false,
   },
@@ -139,7 +140,7 @@ const players = [
     seasonStats: {
       goals: 10,
       assists: 6,
-      appearances: 42,
+      appearances: 43,
     },
     injured: false,
   },
@@ -157,9 +158,9 @@ const players = [
       appearances: 181,
     },
     seasonStats: {
-      goals: 25,
+      goals: 26,
       assists: 15,
-      appearances: 42,
+      appearances: 43,
     },
     injured: false,
   },
@@ -178,7 +179,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 5,
-      appearances: 29,
+      appearances: 30,
     },
     injured: false,
     injuryDetails: {
@@ -203,7 +204,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 1,
-      appearances: 39,
+      appearances: 40,
     },
     injured: false,
   },
@@ -318,7 +319,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 1,
-      appearances: 49,
+      appearances: 50,
     },
     injured: false,
   },
@@ -337,7 +338,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 1,
-      appearances: 21,
+      appearances: 22,
     },
     injured: false,
   },
@@ -381,7 +382,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 35,
+      appearances: 36,
     },
     injured: false,
     injuryDetails: {
@@ -426,7 +427,7 @@ const players = [
     seasonStats: {
       goals: 3,
       assists: 8,
-      appearances: 30,
+      appearances: 31,
     },
     injured: false,
   },
@@ -453,7 +454,7 @@ const players = [
     seasonStats: {
       goals: 8,
       assists: 5,
-      appearances: 37,
+      appearances: 38,
     },
   },
   {
@@ -527,6 +528,26 @@ const players = [
     injuryIcon: FaHospital,
   },
   {
+    name: "Nico O'Rielly",
+    position: "CM",
+    number: 75,
+    age: 20,
+    // fotmobRating: 7.2,
+    country: England,
+    image: Orielly,
+    careerStats: {
+      goals: 0,
+      assists: 0,
+      appearances: 0,
+    },
+    seasonStats: {
+      goals: 3,
+      assists: 2,
+      appearances: 11,
+    },
+    injured: false,
+  },
+  {
     name: "Ederson Moraes",
     number: 3,
     position: "GK",
@@ -539,9 +560,9 @@ const players = [
       appearances: 479,
     },
     seasonStats: {
-      goalsConceded: 47,
+      goalsConceded: 48,
       cleanSheets: 8,
-      appearances: 33,
+      appearances: 34,
     },
     injured: false,
   },

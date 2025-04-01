@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Calendar, Clock, Loader2 } from "lucide-react";
 import mcity from "../assets/images/logo.svg";
-import Bou from "../assets/images/bour.webp";
+import NottinghamForest from "../assets/images/not.png";
 import Fa from "../assets/images/fa.jpg";
 
 const Schedule = () => {
@@ -29,27 +29,16 @@ const Schedule = () => {
               id: "99901",
               homeTeam: { name: "Man City", crest: mcity },
               awayTeam: {
-                name: "Bournemouth",
-                crest: Bou,
+                name: "Not. Forest",
+                crest: NottinghamForest,
               },
               competition: {
-                name: "Qf - FA Cup",
+                name: "Semi Final - FA Cup",
                 emblem: Fa,
               },
-              utcDate: "2025-03-29T15:00:00Z",
+              utcDate: "2025-04-26T14:00:00Z",
               status: "TIMED",
             },
-            // {
-            //   id: "99902",
-            //   homeTeam: { name: "Chelsea", crest: "/path-to-chelsea-logo.png" },
-            //   awayTeam: { name: "Man City", crest: "/path-to-city-logo.png" },
-            //   competition: {
-            //     name: "Premier League",
-            //     emblem: "/path-to-pl-logo.png",
-            //   },
-            //   utcDate: "2024-09-05T18:30:00Z",
-            //   status: "TIMED",
-            // },
           ];
 
           // Combine both API and manually added matches

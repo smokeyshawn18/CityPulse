@@ -56,6 +56,13 @@ const players = [
       assists: 5,
       appearances: 48,
     },
+    injured: true,
+    injuryDetails: {
+      tm: "March 30, 2025",
+      type: "Knee Injury",
+      recoveryTime: "Mid May 2025",
+    },
+    injuryIcon: FaHospital,
   },
 
   {

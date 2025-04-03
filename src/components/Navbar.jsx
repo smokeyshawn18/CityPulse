@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.jpg";
+import { Envelope } from "@shawn/icons";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ const Navbar = () => {
               MCityX
             </span>
           </a>
+          <Envelope className="w-10 h-8 mt-1 bg-slate-300 rounded-xl p-1" />
         </div>
 
         {/* Desktop Navigation */}

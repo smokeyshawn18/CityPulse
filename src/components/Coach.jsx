@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 export default function CoachProfile() {
   // Define individual stats
-  const wins = 372; // Example value
+  const wins = 373; // Example value
   const draws = 65; // Example value
   const losses = 81; // Example value
   const totalTrophies = 18; // Example value

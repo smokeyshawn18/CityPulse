@@ -522,6 +522,23 @@ const matches = [
     manOfTheMatch: Haaland,
     motm: "Erling Haaland",
   },
+  {
+    id: 27,
+    homeTeam: "Man City",
+    awayTeam: "Man United",
+    scorers: {
+      home: [],
+      away: [],
+    },
+    timestamp: "2025-04-06T21:15:00",
+    time: "FT",
+
+    competition: "Premier League",
+    venue: "Old Trafford, Manchester",
+    competitionLogo: PremierLeagueLogo,
+    manOfTheMatch: Amad,
+    motm: "Bruno Fernandes",
+  },
 ];
 
 const formatDateTime = (dateTimeString) => {

@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { CiMedicalCross } from "react-icons/ci";
 import { useState, useEffect } from "react";
+import { DollarSign } from "lucide-react";
 
 const PlayerCard = ({ player }) => {
   const [activeTab, setActiveTab] = useState("season");
@@ -65,6 +66,10 @@ const PlayerCard = ({ player }) => {
         <p className="font-bold text-3xl text-center mt-2 mb-4 text-black flex items-center justify-center gap-2">
           <FaTshirt className="text-[#702020] text-4xl" />
           {player.number}
+        </p>
+        <p className="font-bold text-2xl text-center mt-2 mb-4 text-blue-900 flex items-center justify-center gap-2">
+          {/* <DollarSign className="text-[#233e8a] font-bold text-2xl" /> */}$
+          {player.value}M
         </p>
 
         <p className="text-[#000000] mb-4 text-xl font-bold text-center">

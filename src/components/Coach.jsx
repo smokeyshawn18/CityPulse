@@ -1,9 +1,4 @@
-import {
-  FaTrophy,
-  FaRegHandshake,
-  FaTimesCircle,
-  FaFutbol,
-} from "react-icons/fa";
+import { FaTrophy, FaRegHandshake, FaTimesCircle } from "react-icons/fa";
 
 import Guardiola from "../assets/images/pepp.jpg";
 import { Link } from "react-router-dom";
@@ -17,7 +12,6 @@ export default function CoachProfile() {
 
   // Calculate total matches and win percentage
   const totalMatches = wins + draws + losses;
-  const winPercentage = ((wins / totalMatches) * 100).toFixed(1); // To one decimal place
 
   // Data array for stats
   const data = [

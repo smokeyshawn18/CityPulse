@@ -42,7 +42,8 @@ import Kai from "../assets/images/havertz.webp";
 import Vini from "../assets/images/vini.webp";
 import Omar from "../assets/images/marmoush.webp";
 import Mbappe from "../assets/images/mbappe.webp";
-
+import Bruno from "../assets/images/bruno.webp";
+import Silva from "../assets/images/silvab.jpg";
 const teamColors = {
   "Man City": "#6caddf",
   Liverpool: "#C8102E",
@@ -536,8 +537,25 @@ const matches = [
     competition: "Premier League",
     venue: "Old Trafford, Manchester",
     competitionLogo: PremierLeagueLogo,
-    manOfTheMatch: Amad,
+    manOfTheMatch: Bruno,
     motm: "Bruno Fernandes",
+  },
+  {
+    id: 28,
+    homeTeam: "Man City",
+    awayTeam: "Aston Villa",
+    scorers: {
+      home: ["B. Silva 7'", "Nunes 90+4'"],
+      away: ["Rashford 18 (Pen)'"],
+    },
+    timestamp: "2025-04-23T00:45:00",
+    time: "FT",
+
+    competition: "Premier League",
+    venue: "Etihad Stadium",
+    competitionLogo: PremierLeagueLogo,
+    manOfTheMatch: Silva,
+    motm: "Bernardo Silva",
   },
 ];
 

@@ -109,7 +109,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 4,
-      appearances: 50,
+      appearances: 51,
     },
     injured: false,
   },
@@ -130,7 +130,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 5,
-      appearances: 45,
+      appearances: 46,
     },
     injured: false,
   },
@@ -152,7 +152,7 @@ const players = [
     seasonStats: {
       goals: 10,
       assists: 6,
-      appearances: 44,
+      appearances: 45,
     },
     injured: false,
   },
@@ -172,8 +172,8 @@ const players = [
     },
     seasonStats: {
       goals: 28,
-      assists: 15,
-      appearances: 48,
+      assists: 16,
+      appearances: 49,
     },
     injured: false,
   },
@@ -193,7 +193,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 5,
-      appearances: 33,
+      appearances: 34,
     },
     injured: false,
     injuryDetails: {
@@ -218,8 +218,8 @@ const players = [
     },
     seasonStats: {
       goals: 7,
-      assists: 1,
-      appearances: 44,
+      assists: 2,
+      appearances: 45,
     },
     injured: false,
   },
@@ -267,7 +267,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 10,
-      appearances: 37,
+      appearances: 38,
     },
     injured: false,
   },
@@ -337,9 +337,9 @@ const players = [
       appearances: 214,
     },
     seasonStats: {
-      goals: 6,
+      goals: 7,
       assists: 1,
-      appearances: 55,
+      appearances: 56,
     },
     injured: false,
   },
@@ -381,7 +381,7 @@ const players = [
       assists: 1,
       appearances: 36,
     },
-    injured: true,
+    injured: false,
     injuryDetails: {
       tm: "Feb 11, 2025",
       type: "Muscle Injury",
@@ -405,7 +405,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 41,
+      appearances: 42,
     },
     injured: false,
     injuryDetails: {
@@ -432,7 +432,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 11,
-      appearances: 46,
+      appearances: 47,
     },
     injured: false,
   },
@@ -452,7 +452,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 9,
-      appearances: 35,
+      appearances: 36,
     },
     injured: false,
   },
@@ -480,36 +480,31 @@ const players = [
     seasonStats: {
       goals: 8,
       assists: 5,
-      appearances: 41,
+      appearances: 42,
     },
   },
+
   {
-    name: "C. Echeverri",
-    position: "AM",
-    number: 2,
-    value: 18,
-    country: Arg,
-    age: 19,
-    image: KyleWalker,
+    name: "Nico O'Rielly",
+    position: "CM",
+    number: 75,
+    value: 7,
+    age: 20,
+    // fotmobRating: 7.2,
+    country: England,
+    image: Orielly,
     careerStats: {
-      goals: 4,
-      assists: 8,
-      appearances: 48,
-    },
-    seasonStats: {
       goals: 0,
       assists: 0,
       appearances: 0,
     },
-    injured: false,
-    injuryDetails: {
-      tm: "Jan 01, 2025",
-      type: "Will Join the Team at March",
-      recoveryTime: "Early March 2025",
+    seasonStats: {
+      goals: 5,
+      assists: 2,
+      appearances: 17,
     },
-    injuryIcon: FaHospital,
+    injured: false,
   },
-
   {
     name: "Rico Lewis",
     number: 82,
@@ -524,9 +519,9 @@ const players = [
       appearances: 51,
     },
     seasonStats: {
-      goals: 1,
+      goals: 2,
       assists: 5,
-      appearances: 44,
+      appearances: 45,
     },
     injured: false,
   },
@@ -556,26 +551,32 @@ const players = [
     },
     injuryIcon: FaHospital,
   },
+
   {
-    name: "Nico O'Rielly",
-    position: "CM",
-    number: 75,
-    value: 7,
-    age: 20,
-    // fotmobRating: 7.2,
-    country: England,
-    image: Orielly,
+    name: "C. Echeverri",
+    position: "AM",
+    number: 2,
+    value: 18,
+    country: Arg,
+    age: 19,
+    image: KyleWalker,
     careerStats: {
+      goals: 4,
+      assists: 8,
+      appearances: 48,
+    },
+    seasonStats: {
       goals: 0,
       assists: 0,
       appearances: 0,
     },
-    seasonStats: {
-      goals: 5,
-      assists: 2,
-      appearances: 16,
-    },
     injured: false,
+    injuryDetails: {
+      tm: "Jan 01, 2025",
+      type: "Will Join the Team at March",
+      recoveryTime: "Early March 2025",
+    },
+    injuryIcon: FaHospital,
   },
   {
     name: "Ederson Moraes",
@@ -612,8 +613,8 @@ const players = [
     },
     seasonStats: {
       goalsConceded: 22,
-      cleanSheets: 5,
-      appearances: 18,
+      cleanSheets: 6,
+      appearances: 19,
     },
     injured: false,
   },

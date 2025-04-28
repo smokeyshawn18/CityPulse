@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Calendar, Clock, Loader2 } from "lucide-react";
 import mcity from "../assets/images/logo.svg";
-import NottinghamForest from "../assets/images/not.png";
+import NottinghamForest from "../assets/images/cry.webp";
 import Fa from "../assets/images/fa.jpg";
 
 const Schedule = () => {
@@ -29,14 +29,14 @@ const Schedule = () => {
               id: "99901",
               homeTeam: { name: "Man City", crest: mcity },
               awayTeam: {
-                name: "Not. Forest",
+                name: "Crystal Palace",
                 crest: NottinghamForest,
               },
               competition: {
-                name: "Semi Final - FA Cup",
+                name: "Final",
                 emblem: Fa,
               },
-              utcDate: "2025-04-26T14:00:00Z",
+              utcDate: "2025-05-17T14:00:00Z",
               status: "TIMED",
             },
           ];

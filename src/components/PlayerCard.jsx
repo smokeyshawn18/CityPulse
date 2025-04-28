@@ -10,7 +10,6 @@ import {
 } from "react-icons/fa";
 import { CiMedicalCross } from "react-icons/ci";
 import { useState, useEffect } from "react";
-import { DollarSign } from "lucide-react";
 
 const PlayerCard = ({ player }) => {
   const [activeTab, setActiveTab] = useState("season");

@@ -57,7 +57,7 @@ const Home = () => {
   };
 
   const [todayMatches, setTodayMatches] = useState([]);
-  const [countdowns, setCountdowns] = useState({});
+  const [setCountdowns] = useState({});
 
   const getTodayMatches = useCallback(() => {
     const today = new Date();
@@ -116,10 +116,10 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <KeyPerformers />
         <Happening />
       </div>
 
-      <KeyPerformers />
       <CoachProfile className="mt-4" />
       <Kit />
     </section>

@@ -80,9 +80,9 @@ const players = [
       appearances: 716,
     },
     seasonStats: {
-      goals: 7,
+      goals: 8,
       assists: 10,
-      appearances: 39,
+      appearances: 40,
     },
     injured: false,
     injuryDetails: {
@@ -109,7 +109,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 4,
-      appearances: 51,
+      appearances: 52,
     },
     injured: false,
   },
@@ -130,7 +130,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 5,
-      appearances: 46,
+      appearances: 47,
     },
     injured: false,
   },
@@ -152,7 +152,7 @@ const players = [
     seasonStats: {
       goals: 10,
       assists: 6,
-      appearances: 45,
+      appearances: 46,
     },
     injured: false,
   },
@@ -173,7 +173,7 @@ const players = [
     seasonStats: {
       goals: 28,
       assists: 16,
-      appearances: 49,
+      appearances: 50,
     },
     injured: false,
   },
@@ -219,7 +219,7 @@ const players = [
     seasonStats: {
       goals: 7,
       assists: 2,
-      appearances: 45,
+      appearances: 46,
     },
     injured: false,
   },
@@ -266,8 +266,8 @@ const players = [
     },
     seasonStats: {
       goals: 6,
-      assists: 10,
-      appearances: 38,
+      assists: 11,
+      appearances: 39,
     },
     injured: false,
   },
@@ -339,7 +339,7 @@ const players = [
     seasonStats: {
       goals: 7,
       assists: 1,
-      appearances: 56,
+      appearances: 57,
     },
     injured: false,
   },
@@ -359,7 +359,7 @@ const players = [
     seasonStats: {
       goals: 7,
       assists: 1,
-      appearances: 24,
+      appearances: 25,
     },
     injured: false,
   },
@@ -379,7 +379,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 1,
-      appearances: 36,
+      appearances: 37,
     },
     injured: false,
     injuryDetails: {
@@ -405,7 +405,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 42,
+      appearances: 43,
     },
     injured: false,
     injuryDetails: {
@@ -452,7 +452,7 @@ const players = [
     seasonStats: {
       goals: 4,
       assists: 9,
-      appearances: 36,
+      appearances: 37,
     },
     injured: false,
   },
@@ -480,7 +480,7 @@ const players = [
     seasonStats: {
       goals: 8,
       assists: 5,
-      appearances: 42,
+      appearances: 43,
     },
   },
 
@@ -501,7 +501,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 2,
-      appearances: 17,
+      appearances: 18,
     },
     injured: false,
   },
@@ -521,7 +521,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 5,
-      appearances: 45,
+      appearances: 46,
     },
     injured: false,
   },
@@ -593,8 +593,8 @@ const players = [
     },
     seasonStats: {
       goalsConceded: 50,
-      cleanSheets: 10,
-      appearances: 37,
+      cleanSheets: 11,
+      appearances: 38,
     },
     injured: false,
   },
@@ -620,6 +620,8 @@ const players = [
   },
   // Add more players here
 ];
+const totalValue = players.reduce((sum, player) => sum + player.value, 0);
+const inBillion = totalValue / 1000;
 
 const PlayerSection = () => {
   return (
@@ -627,6 +629,9 @@ const PlayerSection = () => {
       <h1 className="text-4xl font-extrabold text-sky-700 mb-10 text-center uppercase tracking-wider ">
         Manchester City Player Stats
       </h1>
+      <h3 className="text-3xl font-extrabold text-sky-700 mb-10 text-center uppercase tracking-wider">
+        Squad Value: ${inBillion}B
+      </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {players.map((player, index) => (
           <PlayerCard key={index} player={player} />

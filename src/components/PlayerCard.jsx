@@ -39,6 +39,7 @@ const PlayerCard = ({ player }) => {
   return (
     <div className="relative bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-3xl duration-300 ease-in-out">
       {/* Player Image */}
+
       <div className="relative w-24 h-24 mx-auto mt-4 rounded-full overflow-hidden bg-[#6accf5] shadow-lg clip-star">
         <img
           src={player.image}
@@ -231,7 +232,9 @@ PlayerCard.propTypes = {
   player: PropTypes.shape({
     name: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-
+    number: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+    fotmobRating: PropTypes.number,
     position: PropTypes.string.isRequired,
     country: PropTypes.string.isRequired,
     age: PropTypes.number.isRequired,

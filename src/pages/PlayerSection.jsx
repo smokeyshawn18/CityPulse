@@ -55,7 +55,7 @@ const players = [
     seasonStats: {
       goals: 39,
       assists: 5,
-      appearances: 49,
+      appearances: 50,
     },
     injured: true,
     injuryDetails: {
@@ -82,7 +82,7 @@ const players = [
     seasonStats: {
       goals: 8,
       assists: 10,
-      appearances: 41,
+      appearances: 42,
     },
     injured: false,
     injuryDetails: {
@@ -109,7 +109,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 4,
-      appearances: 53,
+      appearances: 54,
     },
     injured: false,
   },
@@ -130,7 +130,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 5,
-      appearances: 47,
+      appearances: 48,
     },
     injured: false,
   },
@@ -152,7 +152,7 @@ const players = [
     seasonStats: {
       goals: 10,
       assists: 6,
-      appearances: 47,
+      appearances: 48,
     },
     injured: false,
   },
@@ -173,7 +173,7 @@ const players = [
     seasonStats: {
       goals: 28,
       assists: 16,
-      appearances: 51,
+      appearances: 52,
     },
     injured: false,
   },
@@ -267,7 +267,7 @@ const players = [
     seasonStats: {
       goals: 6,
       assists: 11,
-      appearances: 40,
+      appearances: 41,
     },
     injured: false,
   },
@@ -339,7 +339,7 @@ const players = [
     seasonStats: {
       goals: 7,
       assists: 1,
-      appearances: 58,
+      appearances: 59,
     },
     injured: false,
   },
@@ -379,7 +379,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 1,
-      appearances: 38,
+      appearances: 39,
     },
     injured: false,
     injuryDetails: {
@@ -394,7 +394,7 @@ const players = [
     number: 3,
     position: "CB",
     value: 70,
-    age: 27,
+    age: 28,
     country: Portugal,
     image: Ruben,
     careerStats: {
@@ -405,7 +405,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 44,
+      appearances: 45,
     },
     injured: false,
     injuryDetails: {
@@ -432,7 +432,7 @@ const players = [
     seasonStats: {
       goals: 2,
       assists: 11,
-      appearances: 48,
+      appearances: 49,
     },
     injured: false,
   },
@@ -501,7 +501,7 @@ const players = [
     seasonStats: {
       goals: 5,
       assists: 2,
-      appearances: 19,
+      appearances: 20,
     },
     injured: false,
   },
@@ -568,7 +568,7 @@ const players = [
     seasonStats: {
       goals: 0,
       assists: 0,
-      appearances: 0,
+      appearances: 1,
     },
     injured: false,
     injuryDetails: {
@@ -592,9 +592,9 @@ const players = [
       appearances: 479,
     },
     seasonStats: {
-      goalsConceded: 50,
+      goalsConceded: 51,
       cleanSheets: 12,
-      appearances: 39,
+      appearances: 40,
     },
     injured: false,
   },

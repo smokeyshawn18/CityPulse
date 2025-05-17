@@ -58,7 +58,7 @@ const Kit = () => {
   return (
     <div className="p-6">
       <h2 className="text-3xl text-[#1b3c42] font-bold mb-10 text-center uppercase">
-        Manchester City 24/25 Season Kits
+        Manchester City 25/26 Season Kits
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {" "}
